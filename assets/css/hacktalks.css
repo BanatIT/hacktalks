@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
+
+body {
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 400;
+    background-color: #111026;
+}
+#intro {
+    margin: 100px auto;
+}
+.coming-soon {
+    height: 28px;
+    width: 178px;
+    color: #FCB619;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.logo-section {
+    text-align: center;
+    margin-top:32px;
+    height:100px;
+}
+
+.heading {
+    height: 58px;
+    width: 620px;
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.date {
+    margin-top: 16px;
+    height: 28px;
+    width: 189px;
+    color: #FCB619;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.subscribe-msg {
+    margin-top: 60px;
+    margin-bottom: 16px;
+    height: 18px;
+    width: 181px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe-form {
+    text-align: center;
+}
+.email{
+    height: 34px;
+    width: 235px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    padding: 12px 6px;
+   color: #6D8298;
+    font-size: 16px;
+}
+
+.button{
+    height: 34px;
+    width: 115px;
+    border: 2px solid #2F6AE0;
+    border-radius: 2px;
+    background-color: transparent;
+    cursor:pointer;
+   color: #FFFFFF;	font-size: 14px;	font-weight: bold;
+}
+.button:hover{
+    background-color: #2F6AE0;
+}
+
+@media only screen and (max-width: 720px) {
+    .heading {
+        height: 58px;
+        color: #FFFFFF;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .button.subscribe{
+        margin-top:16px;
+    }
+}
