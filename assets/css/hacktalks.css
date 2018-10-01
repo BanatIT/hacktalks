@@ -105,6 +105,7 @@ body {
     padding: 12px 6px;
    color: #6D8298;
     font-size: 16px;
+    border:0;
 }
 
 .button{
@@ -114,7 +115,8 @@ body {
     border-radius: 2px;
     background-color: transparent;
     cursor:pointer;
-   color: #FFFFFF;	font-size: 14px;	font-weight: bold;
+   color: #FFFFFF;	font-size: 14px;
+    font-weight: bold;
 }
 .button:hover{
     background-color: #2F6AE0;
@@ -130,4 +132,24 @@ body {
     .button.subscribe{
         margin-top:16px;
     }
+}
+.button-green {
+    height: 60px;
+    width: 300px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background: #00bd5c;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.button-green:hover {
+    background-color: #03d86b;
+}
+
+#id123-thankyou{
+    color: #fff !important;
 }
