@@ -6,9 +6,9 @@ if(isset($_GET['debug'])) {
     $show = true;
 }
 $availableSection = array(
-    'menu' => true,
-    'sponsors' => true,
-    'footer' => true,
+    'menu' => false,
+    'sponsors' => false,
+    'footer' => false,
 );
 
 ?>
