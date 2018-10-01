@@ -7,6 +7,8 @@ body {
 }
 #intro {
     margin: 100px auto;
+    height: 100vh;
+    min-height: 620px;
 }
 .coming-soon {
     height: 28px;
@@ -43,20 +45,17 @@ body {
     text-align: center;
 }
 .previous-editions {
-    margin-left: auto;
-    margin-right: auto;
+
     margin-top: 26px;
     height: 28px;
     max-width: 200px;
     color: #fff;
     font-size: 16px;
     line-height: 18px;
-    text-align: center;
 }
 
 .previous-editions ul {
     list-style-type: none;
-    width: 100%;
     margin: 0;
     padding: 0;
     display: table
@@ -64,7 +63,8 @@ body {
 
 .previous-editions ul li {
     display: table-cell;
-    text-align: center
+    text-align: center;
+    padding-right: 10px;
 }
 
 .previous-editions ul a {
@@ -82,16 +82,14 @@ body {
 }
 
 .subscribe-msg {
-    margin-top: 60px;
+    margin-top: 26px;
     margin-bottom: 16px;
     height: 18px;
-    width: 181px;
+
     color: #FFFFFF;
     font-size: 16px;
     line-height: 18px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .subscribe-form {
@@ -152,4 +150,85 @@ body {
 
 #id123-thankyou{
     color: #fff !important;
+}
+
+.white-bg{
+    background-color: #fff;
+}
+.content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.content h1 {
+    height: 38px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 38px;
+    color: #454564;
+}
+
+.sponsors h2 {
+    margin-top: 40px;
+    color: #558dc9;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.thumbnails-list {
+    position: relative;
+    text-align: center;
+    font-size: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+.thumbnails-list li {
+    margin: 0 10px 20px;
+}
+.footer{
+    padding-top:30px;
+    padding-bottom: 56px;
+}
+.footer-ending {
+    background: #eff3f6;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6d8298;
+    padding: 15px 0;
+}
+.map {
+    background: #fff;
+    height: 320px;
+    border: 0;
+    width: 100%;
+}
+
+.logo-nav{
+    height: 42px;
+}
+.nav-link{
+    color: #fff;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #FDB632;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.navbar{
+    background-color: #111026;
 }
