@@ -7,8 +7,8 @@ if(isset($_GET['debug'])) {
 }
 $availableSection = array(
     'menu' => false,
-    'sponsors' => false,
-    'footer' => false,
+    'sponsors' => true,
+    'footer' => true,
 );
 
 ?>
@@ -40,7 +40,7 @@ $availableSection = array(
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/css/hacktalks.css?ver=1.0.7">
+    <link rel="stylesheet" href="assets/css/hacktalks.css?ver=1.0.8">
     <title>Hacktalks 2018 Conference - IoT, eHealth, Blockchain & more</title>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="80">
@@ -81,7 +81,14 @@ $availableSection = array(
     <div class="row">
         <div class="col date">15-16 - Oct.2018</div>
     </div>
-
+    <div class="row">
+        <div class="col text-center intro">
+            HackTalks is a 2-day tech conference made
+            in Timisoara, Romania, initially part of
+            HackTM, the flagship hackathon of the
+            Banat region.
+        </div>
+    </div>
     <div class="row register">
         <div class="col col-12 text-center mt-5 mb-2">
             <button class="btn button-green" data-toggle="collapse" data-target="#applyToSpeak" aria-expanded="true" aria-controls="applyToSpeak">Apply to speak</button>
@@ -111,7 +118,7 @@ $availableSection = array(
         </li>
         <li>
             <a title="Intel" target="_blank" href="https://www.intel.com/content/www/us/en/jobs/locations/romania.html">
-                <img width="226" height="219" src="https://media.glassdoor.com/sqll/1519/intel-corporation-squarelogo-1515609455196.png"  alt="Intel">
+                <img width="226" height="219" src="/assets/logo/hacktalks_logo_intel.png"  alt="Intel">
             </a>
         </li>
     </ul>
@@ -119,7 +126,7 @@ $availableSection = array(
     <ul class="thumbnails-list">
         <li>
             <a title="BRD" target="_blank" href="https://www.brd.ro/">
-                <img width="226" height="219" src="https://plazaromania.ro/wp-content/uploads/2017/02/logo-color-pe-fond-alb.jpg"  alt="BRD">
+                <img width="226" height="219" src="/assets/logo/hacktalks_logo_brd.png"  alt="BRD">
             </a>
         </li>
     </ul>
