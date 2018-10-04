@@ -91,10 +91,10 @@ $availableSection = array(
     </div>
     <div class="row">
         <div class="col text-center intro">
-            HackTalks is a 2-day tech conference made
-            in Timisoara, Romania, initially part of
-            HackTM, the flagship hackathon of the
-            Banat region.
+           HackTalks is a 2 day conference that aims to give to the local community 
+           opportunities for joint learning and to inspire the people around it to 
+           innovate and thrive. HackTalks is creating an environment that encourages sharing, 
+           learning from each other, and experimenting with new technologies and ideas.
         </div>
     </div>
     <div class="row register">
