@@ -134,9 +134,10 @@ body {
 .button-green {
     height: 60px;
     width: 300px;
-    line-height: 30px;
+    line-height: 60px;
     font-size: 18px;
     font-weight: 700;
+
     text-transform: uppercase;
     border-radius: 2px;
     background: #00bd5c;
@@ -146,6 +147,7 @@ body {
 
 .button-green:hover {
     background-color: #03d86b;
+    color: #fff;
 }
 
 #id123-thankyou{

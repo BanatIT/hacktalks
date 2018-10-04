@@ -45,7 +45,7 @@ $availableSection = array(
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/css/hacktalks.css?ver=1.0.8">
+    <link rel="stylesheet" href="assets/css/hacktalks.css?ver=1.0.9">
     <title>Hacktalks 2018 Conference - IoT, eHealth, Blockchain & more</title>
 </head>
 <body data-spy="scroll" data-target=".navbar-nav" data-offset="120">
@@ -99,13 +99,7 @@ $availableSection = array(
     </div>
     <div class="row register">
         <div class="col col-12 text-center mt-5 mb-2">
-            <button class="btn button-green" data-toggle="collapse" data-target="#applyToSpeak" aria-expanded="true"
-                    aria-controls="applyToSpeak">Apply to speak
-            </button>
-        </div>
-        <div id="applyToSpeak" class="col col-12 collapse">
-            <script type="text/javascript" defer src="https://www.123formbuilder.com/embed/4252673.js" data-role="form"
-                    data-default-width="650px"></script>
+            <a class="btn button-green" target="_blank" href="https://banatit.ro/event/hacktalks-2018/">Register here</a>
         </div>
     </div>
 
