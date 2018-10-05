@@ -1526,8 +1526,13 @@ $availableSection = array(
         <h2>Partners</h2>
         <ul class="thumbnails-list">
             <li>
-                <a title="Devplant" target="_blank" href="http://devplant.ro/">
+                <a title="DevPlant" target="_blank" href="http://devplant.ro/">
                     <img width="175" height="175" src="/assets/logo/hacktalks_logo_devplant.png" alt="Devplant">
+                </a>
+            </li>
+             <li>
+                <a title="ITschool" target="_blank" href="http://itschool.ro/">
+                    <img width="175" height="175" src="/assets/logo/hacktalks_logo_itschool.png" alt="ITschool">
                 </a>
             </li>
         </ul>
