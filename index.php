@@ -1543,7 +1543,13 @@ $availableSection = array(
                     <img width="227" height="220" src="/assets/logo/hacktalks_logo_banat_it.png" alt="Banat IT">
                 </a>
             </li>
+            <li>
+                <a title="UPT" target="_blank" href="http://upt.ro/">
+                    <img width="227" height="220" src="/assets/logo/hacktalks_logo_upt.png" alt="Universitatea Politehnica Timisoara">
+                </a>
+            </li>
         </ul>
+        
         <div class="content">
 
             <div class="title text-center">
