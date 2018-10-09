@@ -7,8 +7,14 @@ body {
 }
 #intro {
     margin: 100px auto;
+    height: 60vh;
+    min-height: 550px;
+}
+
+#ehealth {
+    margin: 60px auto;
     height: 70vh;
-    min-height: 620px;
+    min-height: 700px;
 }
 .coming-soon {
     height: 28px;
@@ -35,6 +41,53 @@ body {
     margin-top: 60px;
 }
 
+.ehealth-heading{
+	margin-bottom: 60px;
+    color: #FCB619;
+}
+
+.ehealth-icons > object { 
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.ehealth-description {
+	text-align: center;
+	color: #fff;
+    font-family: inherit;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    line-height: 26px;
+    max-width: 700px;
+    margin: 5px auto 10px auto;
+    padding: 0 30px 0 30px;
+}
+
+.yellow-heading{
+	padding: 16px 0px 16px 0px;
+    color: #FCB619;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+}
+
+.ehealth-heading2{
+	padding: 16px 0px 16px 0px;
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+	margin-top: 10px;
+}
+
+.em-text{
+	font-weight: 600;
+}
+
 .date {
     margin-top: 16px;
     height: 28px;
@@ -44,6 +97,8 @@ body {
     line-height: 28px;
     text-align: center;
 }
+
+
 .previous-editions {
 
     margin-top: 26px;
@@ -250,10 +305,62 @@ body {
     max-width: 700px;
     margin: 30px auto 0px auto;
 }
-
+.col.green, .col.yellow{
+	min-width: auto !important;
+}
 .hacktalks-schedule {
     padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center top;
+    align-content: space-evenly;
 }
+
+@media only screen and (max-width: 1080px) {
+  .hacktalks-schedule {
+    flex-direction: column;
+  }
+
+  .hacktalks-schedule-half{
+     min-width: 100%;
+     display: inline-flex;
+     padding-bottom: 24px;
+
+  }
+}
+@media only screen and (max-width: 600px) {
+  .col.talk{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.hacktalks-schedule-half{
+   min-width: 50%;
+   padding-left: 10px;
+   padding-right: 10px;
+   display: inline-flex;
+
+}
+#agenda{
+	display: flex
+  text-align: center;
+}
+
+.no-bg{
+  background-image: none !important;
+}
+
+.col.talk{
+	min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  min-height: 92px;
+}
+
 .hacktalks-schedule h2 {
     text-align: center;
     margin-bottom: 60px;
@@ -277,6 +384,7 @@ body {
     padding: 8px;
     padding-right: 30px;
     margin-left: -20px;
+    max-width: 260px;
 }
 .hacktalks-schedule .green .speech {
     background-image: url("../images/bila_verde_linie@2x.png");
@@ -321,7 +429,6 @@ body {
     color: #454564;
     font-size: 16px;
     line-height: 23px;
-    width: 43px;
 }
 .hacktalks-schedule .time.break-time {
     line-height: 33px;
@@ -340,7 +447,7 @@ body {
     background-repeat: no-repeat;
     background-position: 5px 0;
     background-size: 22px;
-    max-width: 85%;
+    height: calc(100% - 20px);
 }
 .hacktalks-schedule .speech h3 {
     color: #454564;
@@ -350,7 +457,6 @@ body {
     margin: 0 0 12px;
 }
 .hacktalks-schedule .speech .info {
-    max-width: 80%;
     padding-left: 5px;
 }
 .hacktalks-schedule .speech .avatar {
@@ -360,6 +466,9 @@ body {
     border-radius: 100%;
     height: 50px;
     width: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    display: inline-block;
 }
 .hacktalks-schedule .speech .tag-line {
     height: 16px;
@@ -370,8 +479,8 @@ body {
     font-weight: bold;
     line-height: 16px;
     text-align: center;
-    display: inline-block;
-    padding: 0 6px;
+    display: inline;
+    padding: 1px 6px;
     vertical-align: top;
     color: #fff;
 }
@@ -391,6 +500,7 @@ body {
 .hacktalks-schedule .details {
     cursor: pointer;
     transition:all 0.3s ease;
+    display: flex;
 }
 .hacktalks-schedule .details:hover {
     -webkit-transform: scale(1.1);
