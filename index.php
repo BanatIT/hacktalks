@@ -1,19 +1,3 @@
-<?php
-
-$show = false;
-
-if (isset($_GET['debug'])) {
-    $show = true;
-}
-$availableSection = array(
-    'menu' => false,
-    'agenda' => false,
-    'sponsors' => true,
-    'footer' => true,
-);
-
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -50,7 +34,6 @@ $availableSection = array(
 </head>
 <body data-spy="scroll" data-target=".navbar-nav" data-offset="120">
 
-<?php if ($show || $availableSection['menu']): ?>
     <nav  class="navbar navbar-expand-md fixed-top">
         <div class="container">
             <a class="navbar-brand abs" href="/">
@@ -74,7 +57,7 @@ $availableSection = array(
             </div>
         </div>
     </nav>
-<?php endif; ?>
+
 <section id="intro" class="container">
     <div class="row">
         <div class="col logo-section">
@@ -106,1403 +89,986 @@ $availableSection = array(
 
 </section>
 
-<?php if ($show || $availableSection['agenda']): ?>
-    <section id="agenda" class="content agenda white-bg ">
-        <h1>Agenda</h1>
-        <div class="container hacktalks-schedule">
-            <div class="row">
-                <div class="col green">
-                    <div class="room">Room 01</div>
-
-
-                    <div class="talk">
-                        <div class="time break-time">
-                            09:00
-                        </div>
-                        <div class="speech">
-                            <div class="break">
-                                Registration &amp; Welcome
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            09:45
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            10:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            11:00
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            11:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            12:00
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time break-time">
-                            12:30
-                        </div>
-                        <div class="speech">
-                            <div class="break">
-                                Lunch Break
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            13:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            14:00
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            14:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time break-time">
-                            15:00
-                        </div>
-                        <div class="speech">
-                            <div class="break">
-                                Coffee break
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            15:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk green ">
-                        <div class="time break-time">
-                            16:00
-                        </div>
-                        <div class="speech">
-                            <div class="break panell-slot">
-                                PANEL:<br>Starting from Technology - Building Businesses
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            17:00
-                        </div>
-                        <div class="speech last">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<section id="agenda" class="content agenda white-bg ">
+    <h1>Agenda</h1>
+    <div class="container hacktalks-schedule">
+      <div class="row hacktalks-schedule-half">
+        <div class="col green">
+          <div class="room">Monday - 15th Oct.</div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time break-time">
+                09:00
+              </div>
+              <div class="speech">
+                <div class="break">
+                  Registration &amp; Welcome
                 </div>
-                <div class="col yellow">
-                    <div class="room">Room 01</div>
-
-
-                    <div class="talk">
-                        <div class="time break-time">
-                            09:00
-                        </div>
-                        <div class="speech">
-                            <div class="break">
-                                Registration &amp; Welcome
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            09:45
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            10:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            11:00
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            11:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            12:00
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time break-time">
-                            12:30
-                        </div>
-                        <div class="speech">
-                            <div class="break">
-                                Lunch Break
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            13:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            14:00
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            14:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time break-time">
-                            15:00
-                        </div>
-                        <div class="speech">
-                            <div class="break">
-                                Coffee break
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            15:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk green ">
-                        <div class="time break-time">
-                            16:00
-                        </div>
-                        <div class="speech">
-                            <div class="break panell-slot">
-                                PANEL:<br>Starting from Technology - Building Businesses
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            17:00
-                        </div>
-                        <div class="speech last">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col red">
-                    <div class="room">Room 01</div>
-
-
-                    <div class="talk">
-                        <div class="time break-time">
-                            09:00
-                        </div>
-                        <div class="speech">
-                            <div class="break">
-                                Registration &amp; Welcome
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            09:45
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            10:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            11:00
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            11:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            12:00
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time break-time">
-                            12:30
-                        </div>
-                        <div class="speech">
-                            <div class="break">
-                                Lunch Break
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            13:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            14:00
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            14:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time break-time">
-                            15:00
-                        </div>
-                        <div class="speech">
-                            <div class="break">
-                                Coffee break
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            15:30
-                        </div>
-                        <div class="speech">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk green ">
-                        <div class="time break-time">
-                            16:00
-                        </div>
-                        <div class="speech">
-                            <div class="break panell-slot">
-                                PANEL:<br>Starting from Technology - Building Businesses
-                            </div>
-                        </div>
-                    </div>
-                    <div class="talk">
-                        <div class="time">
-                            17:00
-                        </div>
-                        <div class="speech last">
-                            <h3>A Team Effort </h3>
-                            <div class="details" data-toggle="modal" data-target="#ioanaiordan">
-                                <div class="avatar"
-                                     style="background-image: url('https://2017.hacktm.ro/wp-content/uploads/2017/05/8490e7c3960a-yoyo.jpg')"></div>
-                                <div class="info">
-                                    <div class="tag-line">speaker</div>
-                                    <div class="name">Ioana Iordan</div>
-                                    <div class="title">UX/UI Designer</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="ioanaiordan" tabindex="-1" role="dialog"
-                             aria-labelledby="ioanaiordan" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Ioana Iordan - A team
-                                            Effort</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3>Bio</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
             </div>
+
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                10:00 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>How Not to S#ck at Programming</h3>
+                <div class="details" data-toggle="modal" data-target="#annaboros">
+                  <div class="avatar" style="background-image: url('./assets/speakers/anna_boros.jpg')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Anna Boros</div>
+                    <div class="title">President of Banat IT</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="annaboros" tabindex="-1" role="dialog" aria-labelledby="annaboros" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Anna Boros - How not to s#ck at programming</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Anna deleted autoexec.bat on her parents' Windows 3.1 computer many years ago because 21Mb of space were simply not enough. 
+                      Panic ensued. 'Till this day, nobody knows.
+                      <br/><br/>
+                      She is now a software engineer, CEO of DevPlant and President of Banat IT.
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                11:00 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>Developing Connected Medical Devices for Real Needs</h3>
+                <div class="details"><!-- data-toggle="modal" data-target="#marcorigamonti">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Marco Rigamonti, Igor Bulavitchi</div>
+                    <div class="title">Flex Milano Design Center</div>
+                  </div>
+              </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="marcorigamonti" tabindex="-1" role="dialog" aria-labelledby="marcorigamonti" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Mario Rigamonti</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                12:00 - K1
+              </div>
+              <div class="speech">
+                <h3>eHealth Challenges Presentation by Flex</h3>
+                <div class="details" onclick="document.getElementById('ehealth').scrollIntoView({behavior: 'smooth'});">
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">powered by</div>
+                    <div class="name">Flex Romania</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time break-time">
+                12:30
+              </div>
+              <div class="col speech">
+                <div class="col break">
+                  Lunch Time
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time break-time">
+                13:30 - Lobby
+              </div>
+              <div class="col speech">
+                <div class="break">
+                  START: eHealth Challenges
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                13:30 - K1
+              </div>
+              <div class="speech">
+                <h3>3D Printing Functional Organs</h3>
+                <div class="details" data-toggle="modal" data-target="#calinbrandabur">
+                  <div class="avatar" style="background-image: url('./assets/speakers/calin_brandabur.jpg')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Calin Brandabur</div>
+                    <div class="title">Symme3d</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="calinbrandabur" role="dialog" aria-labelledby="calinbrandabur" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Calin Brandabur</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Calin is a Senior Software development engineer, expert software architect, excellent software project management, software development workflow analyst with 10 years experience in software industry, working with several fortune 500 companies like O2 (Germany, UK, Ireland), T-Mobile (USA, Germany), Mobilcom, Eplus, BASF (Germany).
+                      <br/><br/>
+                      He is the founder and CTO of Symme3D.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col talk">
+              <div class="time">
+                13:30 - K2
+              </div>
+              <div class="speech">
+                <h3>TBA</h3>
+                <div class="details"><!-- data-toggle="modal" data-target="#florincofar">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Florin Cofar</div>
+                    <div class="title">DentCof</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="florincofar" tabindex="-1" role="dialog" aria-labelledby="florincofar" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Florin Cofar</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                14:30 - K1
+              </div>
+              <div class="speech">
+                <h3>TBA</h3>
+                <div class="details"><!-- data-toggle="modal" data-target="#bogdanbugarschi">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Bogdan Bugarschi</div>
+                    <div class="title">Visual Retailing</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="bogdanbugarschi" tabindex="-1" role="dialog" aria-labelledby="bogdanbugarschi" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Bogdan Bugarschi</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col talk">
+              <div class="time">
+                14:30 - K2
+              </div>
+              <div class="speech">
+                <h3>Solving Real World Problems with Software</h3>
+                <div class="details" data-toggle="modal" data-target="#radujakab">
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Radu Jakab</div>
+                    <div class="title">ZeroCozi</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="radujakab" tabindex="-1" role="dialog" aria-labelledby="radujakab" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Radu Jakab</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      After an extensive Business Analyst and Software Development career, Radu founded ZeroCozi, a startup company aimed at building a state-of-the-art queueing system - digital, online, pay-per-use.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                15:30 - K1
+              </div>
+              <div class="speech">
+                <h3>Product Development for the Local Market</h3>
+                <div class="details" data-toggle="modal" data-target="#radumilos">
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Radu Milos</div>
+                    <div class="title">PontajOK</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="radumilos" tabindex="-1" role="dialog" aria-labelledby="radumilos" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Radu Milos</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Radu has solid experience in Java Web application development throughout multiple business domains (banking, telecom, logistics, distribution). 
+                      <br/><br/>
+                      Working together with a very talented team, Radu created software products in many places around the globe and recently launched PontajOK.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col talk">
+              <div class="time">
+                15:30 - K2
+              </div>
+              <div class="speech">
+                <h3>Translate Your Business with AI</h3>
+                <div class="details" data-toggle="modal" data-target="#rodsmith">
+                  <div class="avatar" style="background-image: url('./assets/speakers/rod_smith.jpeg')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Rod Smith</div>
+                    <div class="title">RealtyProfiler.com</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="rodsmith" tabindex="-1" role="dialog" aria-labelledby="rodsmith" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Rod Smith</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      I am CEO and Founder of RealtyProfiler.com, CryptoOutsourcing.com and C-ARBI.com.<br/><br/>With over 20 years of experience starting and managing businesses in Asia, I have a solid background in planning, setting up, managing and growing innovative businesses focused on outsourcing and technical services.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                16:30 - K1
+              </div>
+              <div class="speech">
+                <h3>TBA</h3>
+                <div><!--  class="details" data-toggle="modal" data-target="#ness">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">TBA</div>
+                    <div class="title">Ness</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="ness" tabindex="-1" role="dialog" aria-labelledby="ness" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Ness</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col talk">
+              <div class="time">
+                16:30
+              </div>
+              <div class="speech">
+                <h3>Developing on large scale applications</h3>
+                <div class="details" data-toggle="modal" data-target="#adrianiorgu">
+                  <div class="avatar" style="background-image: url('./assets/speakers/adrian_iorgu.jpg')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Adrian Iorgu</div>
+                    <div class="title">Freelance Consultant</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="adrianiorgu" tabindex="-1" role="dialog" aria-labelledby="adrianiorgu" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Adrian Iorgu</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Results-oriented and self-motivated lead engineer with a focus on delivering high-quality code and products in high traffic environments. 13+ years of experience in the Internet industry, specialized in solutions architecture, development processes and business analysis.
+<br/><br/>
+Owner of Sitecore Consultancy Agency: www.actstudio.ro
+<br/><br/>
+Awards: Sitecore Technology MVP 2016 & 2017, Sitecore 9 Certified
+<br/><br/>
+My unique blend of front-end and back-end skills coupled with my hard work ethic and creative thinking ensure my work is always of the highest standard.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time break-time">
+                17:00
+              </div>
+              <div class="speech no-bg">
+                <div class="break">
+                  END: eHealth Challenges
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
+      </div>
+      <div class="row hacktalks-schedule-half">
+        <div class="col yellow">
+          <div class="room">Tuesday - 16th Oct.</div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time break-time">
+                09:00
+              </div>
+              <div class="speech">
+                <div class="break">
+                  Registration &amp; Welcome
+                </div>
+              </div>
+            </div>
 
-    </section>
-<?php endif; ?>
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                10:00 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>TBA</h3>
+                <div class="details" data-toggle="modal" data-target="#williamtyner">
+                  <div class="avatar" style="background-image: url('./assets/speakers/william_tyner.jpg')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">William Tyner</div>
+                    <div class="title">Google</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="williamtyner" tabindex="-1" role="dialog" aria-labelledby="williamtyner" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >William Tyner</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Will is a Fulbright - National Geographic Digital Storytelling Fellow & UX Researcher at Google.
+                      <br/><br/>
+                      Read more about him and his work at williamtyner.com
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
-<?php if ($show || $availableSection['sponsors']): ?>
-    <section id="sponsors" class="content sponsors text-center white-bg">
+
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                11:00 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>TBA</h3>
+                <div><!-- class="details" data-toggle="modal" data-target="#brd">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">TBA</div>
+                    <div class="title">BRD</div>
+                  </div>
+              </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="brd" tabindex="-1" role="dialog" aria-labelledby="brd" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >BRD</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                11:30 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>Designing Dynamic Map Experiences</h3>
+                <div class="details" data-toggle="modal" data-target="#octavianborcan">
+                  <div class="avatar" style="background-image: url('./assets/speakers/octavian_borcan.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Octavian Borcan</div>
+                    <div class="title">Here Technologies</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="octavianborcan" tabindex="-1" role="dialog" aria-labelledby="octavianborcan" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Octavian Borcan</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      As a Senior Data Acquisition & Community Lead, Octavian is working as designating expert in consolidating HERE data&services for Romania&Moldova thru collection planning, coding, sourcing, remote detection&analytic, crowdsourcing, in order to increase awareness about GIS&mapping technologies in academic area, running events related to education&business area.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                12:00 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>PREi - Pseudo-REST ESP Interface</h3>
+                <div class="details" data-toggle="modal" data-target="#soringuga">
+                  <div class="avatar" style="background-image: url('./assets/speakers/sorin_guga.jpg')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Sorin Guga</div>
+                    <div class="title">Software Developer</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="soringuga" tabindex="-1" role="dialog" aria-labelledby="soringuga" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Sorin Guga</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Experienced PHP Developer with a demonstrated history of working in the computer software industry. Skilled in PHP, JavaScript, Database Architecture and embedded C. Strong engineering professional with a Bachelor’s Degree focused in Computer Science from Politehnica University of Timisoara.
+                      <br/><br/>
+                      Sorin will be talking about PREi, an easily configurable firmware for ESP micro-controllers that shifts the heavy programming load from Embedded to Web.
+						<br/>
+						It supports DNS capturing, custom web portal configuration, I/O R/W operations to all pins, complex R/W operations via a bit of embedded programming, OTA updates and more!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                12:30 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>Cybersecurity in Mobile Medical Apps</h3>
+                <div><!-- class="details" data-toggle="modal" data-target="#flex2">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Marco Rigamonti</div>
+                    <div class="title">Flex Milano Design Center</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="flex2" tabindex="-1" role="dialog" aria-labelledby="flex2" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Marco Rigamonti</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col talk">
+              <div class="time">
+                12:30 - K2
+              </div>
+              <div class="speech">
+                <h3>Business Plan Workshop</h3>
+                <div class="details" data-toggle="modal" data-target="#rod2">
+                  <div class="avatar" style="background-image: url('./assets/speakers/rod_smith.jpeg')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Rod Smith</div>
+                    <div class="title">RealtyProfiler.com</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="rod2" tabindex="-1" role="dialog" aria-labelledby="rod2" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Marco Rigamonti</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                     <div class="modal-body">
+                      <h3>Bio</h3>
+                      I am CEO and Founder of RealtyProfiler.com, CryptoOutsourcing.com and C-ARBI.com.<br/><br/>With over 20 years of experience starting and managing businesses in Asia, I have a solid background in planning, setting up, managing and growing innovative businesses focused on outsourcing and technical services.
+                      <h3>What we'll do</h3>
+                      The workshop consists of 3 phases: 
+                      <ul><li>General presentation of what a business plan should target - 1 hour</li>
+                      <li>"Home study" with a worksheet for 1-2 hours during the lunch break</li>
+                      <li>Project review and discussion</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            
+        	<div class="row">
+            <div class="col talk">
+              <div class="time break-time">
+                13:00
+              </div>
+              <div class="col speech">
+                <div class="col break">
+                  Lunch Time
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+	        <div class="col talk">
+              <div class="time">
+                14:00 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>Realtime 3D in the Browser</h3>
+                <div class="details" data-toggle="modal" data-target="#radumilici">
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Radu Milici</div>
+                    <div class="title">UI Developer</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="radumilici" tabindex="-1" role="dialog" aria-labelledby="radumilici" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Radu Milici - Realtime 3D in the Browser</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Learn the fundamentals of 3D and draw beautiful scenes in the browser with zero plugins using plain old javascript.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          
+          
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                14:30 - K1
+              </div>
+              <div class="speech">
+                <h3>A quick hack using Watson's AI services</h3>
+                <div class="details" data-toggle="modal" data-target="#alindobre">
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Alin Dobre</div>
+                    <div class="title">The Dude at IBM</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="alindobre" tabindex="-1" role="dialog" aria-labelledby="alindobre" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Alin Dobre</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Alin is "The Dude at IBM".<br/><br/>
+                      He will demo a rapid way of building a virtual assistant using Watson services, the IBM cloud and NodeRED.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col talk">
+              <div class="time">
+                14:50 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>TBA</h3>
+                <div><!-- class="details" data-toggle="modal" data-target="#hella">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">TBA</div>
+                    <div class="title">Hella</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="hella" tabindex="-1" role="dialog" aria-labelledby="hella" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >TBA</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                15:30 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>TBA</h3>
+                <div class="details" data-toggle="modal" data-target="#timobejan">
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Timo Bejan</div>
+                    <div class="title">CTO at DevPlant</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="timobejan" tabindex="-1" role="dialog" aria-labelledby="timobejan" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Timo Bejan</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      Timo will blow your mind.<br/><br/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          <div class="row">
+            <div class="col talk">
+              <div class="time">
+                16:30 - Auditorium
+              </div>
+              <div class="speech">
+                <h3>TBA</h3>
+                <div><!-- class="details" data-toggle="modal" data-target="#valmuresan">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="info">
+                    <div class="tag-line">speaker</div>
+                    <div class="name">Valentin Muresan</div>
+                    <div class="title">Intel Timisoara</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="valmuresan" tabindex="-1" role="dialog" aria-labelledby="valmuresan" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Valentin Muresan</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          
+		  
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="ehealth" class="container">
+    <div class="row">
+        <div class="col logo-section">
+            <object type="image/svg+xml" data="assets/images/hacktm_ehealth_logo.svg" class="logo" height="100px">
+                Your browser does not support SVG
+            </object>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col heading text-center ehealth-heading">A different kind of hackathon</div>
+    </div>
+
+    <div class="row">
+        <div class="col ehealth-description">
+	        <div class="row ehealth-icons"><object type="image/svg+xml" data="assets/images/debug.svg" class="logo" height="100px">
+                Your browser does not support SVG
+            </object></div>
+			<div class="row">
+			<span class="ehealth-heading2">Put your skills to the test</span>
+			<p>Enjoy the thrill of short-time problem solving without the need to sacrifice an entire weekend.</p></div>		
+        </div>
+        <div class="col ehealth-description">
+			<div class="row ehealth-icons"><object type="image/svg+xml" data="assets/images/dissemble.svg" class="logo" height="100px">
+                Your browser does not support SVG
+            </object></div>
+			<div class="row">
+			<span class="ehealth-heading2">Reverse engineering FTW</span>
+			<p>Dis/assemble devices, find the faulty circuit, redesign the system, all in around <span class="em-text">one hour</span>.</p></div>
+        </div>
+        <div class="col ehealth-description">
+			<div class="row ehealth-icons"><object type="image/svg+xml" data="assets/images/backup.svg" class="logo" height="100px">
+                Your browser does not support SVG
+            </object></div>
+			<div class="row">
+			<span class="ehealth-heading2">Use your brain power</span>
+			Working without a team has it's advantages. No need to split prizes, for example ;)</div>	
+        </div>
+    </div>
+    <div class="row">
+		<div class="col yellow-heading text-center">
+			Join HackTM eHealth starting at 13:30 on Monday, 15th of October.
+			<br/><br/>
+			<p style="color:#1690C0">powered by</p>
+			<img src="assets/images/logo_flex.png" alt="Flex" width="100px"/>
+		</div>
+    </div>
+
+</section>
+
+<section id="sponsors" class="content sponsors text-center white-bg">
         <h1>SPONSORS</h1>
         <h2>Platinum Sponsors</h2>
         <ul class="thumbnails-list">
             <li>
                 <a title="Flex" target="_blank" href="https://flex.com/">
-                    <img width="226" height="219" src="/assets/logo/hacktalks_logo_flex.png" alt="Flex">
+                    <img width="226" height="219" src="assets/logo/hacktalks_logo_flex.png" alt="Flex">
                 </a>
             </li>
             <li>
                 <a title="Hella" target="_blank" href="https://www.hella.com/hella-ro/">
-                    <img width="226" height="219" src="/assets/logo/hacktalks_logo_hella.png" alt="Hella">
+                    <img width="226" height="219" src="assets/logo/hacktalks_logo_hella.png" alt="Hella">
                 </a>
             </li>
             <li>
                 <a title="Intel" target="_blank"
                    href="https://www.intel.com/content/www/us/en/jobs/locations/romania.html">
-                    <img width="226" height="219" src="/assets/logo/hacktalks_logo_intel.png" alt="Intel">
+                    <img width="226" height="219" src="assets/logo/hacktalks_logo_intel.png" alt="Intel">
                 </a>
             </li>
         </ul>
@@ -1510,7 +1076,7 @@ $availableSection = array(
         <ul class="thumbnails-list">
             <li>
                 <a title="BRD" target="_blank" href="https://www.brd.ro/">
-                    <img width="226" height="219" src="/assets/logo/hacktalks_logo_brd.png" alt="BRD">
+                    <img width="226" height="219" src="assets/logo/hacktalks_logo_brd.png" alt="BRD">
                 </a>
             </li>
         </ul>
@@ -1519,7 +1085,7 @@ $availableSection = array(
         <ul class="thumbnails-list">
             <li>
                 <a title="Ness" target="_blank" href="http://flex.ro/">
-                    <img width="175" height="175" src="/assets/logo/hacktalks_logo_ness.png" alt="Ness">
+                    <img width="175" height="175" src="assets/logo/hacktalks_logo_ness.png" alt="Ness">
                 </a>
             </li>
         </ul>
@@ -1527,12 +1093,12 @@ $availableSection = array(
         <ul class="thumbnails-list">
             <li>
                 <a title="DevPlant" target="_blank" href="http://devplant.ro/">
-                    <img width="175" height="175" src="/assets/logo/hacktalks_logo_devplant.png" alt="Devplant">
+                    <img width="175" height="175" src="assets/logo/hacktalks_logo_devplant.png" alt="Devplant">
                 </a>
             </li>
              <li>
                 <a title="ITschool" target="_blank" href="http://itschool.ro/">
-                    <img width="175" height="175" src="/assets/logo/hacktalks_logo_itschool.png" alt="ITschool">
+                    <img width="175" height="175" src="assets/logo/hacktalks_logo_itschool.png" alt="ITschool">
                 </a>
             </li>
         </ul>
@@ -1540,12 +1106,12 @@ $availableSection = array(
         <ul class="thumbnails-list">
             <li>
                 <a title="BanatIT" target="_blank" href="http://banatit.ro/">
-                    <img width="227" height="220" src="/assets/logo/hacktalks_logo_banat_it.png" alt="Banat IT">
+                    <img width="227" height="220" src="assets/logo/hacktalks_logo_banat_it.png" alt="Banat IT">
                 </a>
             </li>
             <li>
                 <a title="UPT" target="_blank" href="http://upt.ro/">
-                    <img width="227" height="220" src="/assets/logo/hacktalks_logo_upt.png" alt="Universitatea Politehnica Timisoara">
+                    <img width="227" height="220" src="assets/logo/hacktalks_logo_upt.png" alt="Universitatea Politehnica Timisoara">
                 </a>
             </li>
         </ul>
@@ -1563,9 +1129,6 @@ $availableSection = array(
 
     </section>
 
-<?php endif; ?>
-
-<?php if ($show || $availableSection['footer']): ?>
     <section id="footer" class="container footer">
         <div class="row">
             <div class="col">
@@ -1627,7 +1190,7 @@ $availableSection = array(
         </div>
 
     </div>
-<?php endif; ?>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
