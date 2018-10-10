@@ -196,7 +196,7 @@
                 12:00 - K1
               </div>
               <div class="speech">
-                <h3>eHealth Challenges Presentation by Flex</h3>
+                <h3>eHealth Challenges Presentation</h3>
                 <div class="details" onclick="document.getElementById('ehealth').scrollIntoView({behavior: 'smooth'});">
                   <div class="avatar" style="background-image: url('./assets/logo/hacktalks_logo_flex.png')"></div>
                   <div class="info">
@@ -318,7 +318,7 @@
               <div class="speech">
                 <h3>TBA</h3>
                 <div class="details"><!-- data-toggle="modal" data-target="#bogdanbugarschi">-->
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="avatar" style="background-image: url('./assets/speakers/bogdan_bugarschi.png')"></div>
                   <div class="info">
                     <div class="tag-line">speaker</div>
                     <div class="name">Bogdan Bugarschi</div>
@@ -391,7 +391,7 @@
               <div class="speech">
                 <h3>Product Development for the Local Market</h3>
                 <div class="details" data-toggle="modal" data-target="#radumilos">
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="avatar" style="background-image: url('./assets/speakers/radu_milos.jpg')"></div>
                   <div class="info">
                     <div class="tag-line">speaker</div>
                     <div class="name">Radu Milos</div>
@@ -821,7 +821,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
               <div class="speech">
                 <h3>Realtime 3D in the Browser</h3>
                 <div class="details" data-toggle="modal" data-target="#radumilici">
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="avatar" style="background-image: url('./assets/speakers/radu_milici.jpg')"></div>
                   <div class="info">
                     <div class="tag-line">speaker</div>
                     <div class="name">Radu Milici</div>
@@ -858,7 +858,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
               <div class="speech">
                 <h3>A quick hack using Watson's AI services</h3>
                 <div class="details" data-toggle="modal" data-target="#alindobre">
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="avatar" style="background-image: url('./assets/speakers/alin_dobre.jpg')"></div>
                   <div class="info">
                     <div class="tag-line">speaker</div>
                     <div class="name">Alin Dobre</div>
@@ -968,7 +968,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
               <div class="speech">
                 <h3>TBA</h3>
                 <div><!-- class="details" data-toggle="modal" data-target="#valmuresan">-->
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="avatar" style="background-image: url('./assets/speakers/val_muresan.jpg')"></div>
                   <div class="info">
                     <div class="tag-line">speaker</div>
                     <div class="name">Valentin Muresan</div>
@@ -1045,7 +1045,9 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 		<div class="col yellow-heading text-center">
 			Join HackTM eHealth starting at 13:30 on Monday, 15th of October.
 			<br/><br/>
-			<p style="color:#1690C0">powered by</p>
+			<p style="color:#1690C0">powered
+
+       by</p>
 			<img src="assets/images/logo_flex.png" alt="Flex" width="100px"/>
 		</div>
     </div>
