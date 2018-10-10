@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Meta seo -->
-    <meta name="keywords" content="conference, iot, blockchain, timisoara, IT, event, october, 2018"/>
+    <meta name="keywords" content="conference, iot, timisoara, IT, event, october, 2018"/>
     <meta name="description"
-          content="Conference on IoT eHealth Blockchain and more happening in Timisoara on 15-16 October 2018"/>
+          content="Conference on IoT eHealth AI and more happening in Timisoara on 15-16 October 2018"/>
     <meta name="subject" content="Hacktalks 2018 conference official website">
     <meta name="robots" content="index,follow"/>
     <meta name="google-site-verification" content="a8eHtYxHXmK9qd_8MlhGYP9elKBJ7TBH1QYdkDrL9DM"/>
@@ -22,7 +22,7 @@
     <meta property="og:image" content="https://hacktalks.ro/assets/images/hacktalks_2018_logo.png"/>
     <meta property="og:site_name" content="Hacktalks 2018"/>
     <meta property="og:description"
-          content="Conference on IoT, eHealth, Blockchain and more happening in Timisoara on 15-16 October 2018"/>
+          content="Conference on IoT, eHealth, AI and more happening in Timisoara on 15-16 October 2018"/>
 
 
     <!-- Bootstrap CSS -->
@@ -30,7 +30,7 @@
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/hacktalks.css?ver=1.0.9">
-    <title>Hacktalks 2018 Conference - IoT, eHealth, Blockchain & more</title>
+    <title>Hacktalks 2018 Conference - IoT, eHealth, AI & more</title>
 </head>
 <body data-spy="scroll" data-target=".navbar-nav" data-offset="120">
 
@@ -67,7 +67,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col heading text-center">{IoT.eHealth.Blockchain.AI}</div>
+        <div class="col heading text-center">{IoT.eHealth.AI}</div>
     </div>
     <div class="row">
         <div class="col date">15-16 - Oct.2018</div>
