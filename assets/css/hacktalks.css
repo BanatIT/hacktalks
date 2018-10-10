@@ -45,7 +45,7 @@ body {
     color: #FCB619;
 }
 
-.ehealth-icons > object { 
+.ehealth-icons > object {
     text-align: center;
     display: block;
     margin: auto;
@@ -506,4 +506,3 @@ body {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
-

@@ -74,9 +74,9 @@
     </div>
     <div class="row">
         <div class="col text-center intro">
-           HackTalks is a 2 day conference that aims to give to the local community 
-           opportunities for joint learning and to inspire the people around it to 
-           innovate and thrive. HackTalks is creating an environment that encourages sharing, 
+           HackTalks is a 2 day conference that aims to give to the local community
+           opportunities for joint learning and to inspire the people around it to
+           innovate and thrive. HackTalks is creating an environment that encourages sharing,
            learning from each other, and experimenting with new technologies and ideas.
         </div>
     </div>
@@ -136,7 +136,7 @@
                     </div>
                     <div class="modal-body">
                       <h3>Bio</h3>
-                      Anna deleted autoexec.bat on her parents' Windows 3.1 computer many years ago because 21Mb of space were simply not enough. 
+                      Anna deleted autoexec.bat on her parents' Windows 3.1 computer many years ago because 21Mb of space were simply not enough.
                       Panic ensued. 'Till this day, nobody knows.
                       <br/><br/>
                       She is now a software engineer, CEO of DevPlant and President of Banat IT.
@@ -157,7 +157,7 @@
               <div class="speech">
                 <h3>Developing Connected Medical Devices for Real Needs</h3>
                 <div class="details"><!-- data-toggle="modal" data-target="#marcorigamonti">-->
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="avatar" style="background-image: url('./assets/speakers/marco_plus_one.png')"></div>
                   <div class="info">
                     <div class="tag-line">speaker</div>
                     <div class="name">Marco Rigamonti, Igor Bulavitchi</div>
@@ -198,10 +198,9 @@
               <div class="speech">
                 <h3>eHealth Challenges Presentation by Flex</h3>
                 <div class="details" onclick="document.getElementById('ehealth').scrollIntoView({behavior: 'smooth'});">
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="avatar" style="background-image: url('./assets/logo/hacktalks_logo_flex.png')"></div>
                   <div class="info">
                     <div class="tag-line">powered by</div>
-                    <div class="name">Flex Romania</div>
                   </div>
                 </div>
               </div>
@@ -276,7 +275,7 @@
               </div>
               <div class="speech">
                 <h3>TBA</h3>
-                <div class="details"><!-- data-toggle="modal" data-target="#florincofar">-->
+                <div class="details" data-toggle="modal" data-target="#florincofar"><!-- data-toggle="modal" data-target="#florincofar">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
                   <div class="info">
                     <div class="tag-line">speaker</div>
@@ -290,19 +289,21 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Florin Cofar</h5>
+                      <h5 class="modal-title" >Dr. Florin Cofar</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
                       <h3>Bio</h3>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit anim id est laborum.
+                      He attended University of Victor Babes, Timisoara, where he
+                      received his degree in dentistry in 2007. He is a post-graduate of NYU College
+                      of Dentistry, and a Harvard Business school attendee.
+                      <br></br>
+                      He is an international speaker on Dental Aesthetics, Digital Dentistry, Smile
+                      Design, having lectured in more than 30 countries, including respected
+                      Academies like The American Academy of Cosmetic Dentistry, and Brazilian
+                      Academy of Cosmetic Dentistry.
                     </div>
                   </div>
                 </div>
@@ -355,7 +356,7 @@
               <div class="speech">
                 <h3>Solving Real World Problems with Software</h3>
                 <div class="details" data-toggle="modal" data-target="#radujakab">
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="avatar" style="background-image: url('./assets/speakers/radu_jakab.jpg')"></div>
                   <div class="info">
                     <div class="tag-line">speaker</div>
                     <div class="name">Radu Jakab</div>
@@ -410,7 +411,7 @@
                     </div>
                     <div class="modal-body">
                       <h3>Bio</h3>
-                      Radu has solid experience in Java Web application development throughout multiple business domains (banking, telecom, logistics, distribution). 
+                      Radu has solid experience in Java Web application development throughout multiple business domains (banking, telecom, logistics, distribution).
                       <br/><br/>
                       Working together with a very talented team, Radu created software products in many places around the globe and recently launched PontajOK.
                     </div>
@@ -493,7 +494,7 @@
             </div>
             <div class="col talk">
               <div class="time">
-                16:30
+                16:30 - K2
               </div>
               <div class="speech">
                 <h3>Developing on large scale applications</h3>
@@ -719,7 +720,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
             </div>
           </div>
 
-          
+
           <div class="row">
             <div class="col talk">
               <div class="time">
@@ -788,7 +789,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                       <h3>Bio</h3>
                       I am CEO and Founder of RealtyProfiler.com, CryptoOutsourcing.com and C-ARBI.com.<br/><br/>With over 20 years of experience starting and managing businesses in Asia, I have a solid background in planning, setting up, managing and growing innovative businesses focused on outsourcing and technical services.
                       <h3>What we'll do</h3>
-                      The workshop consists of 3 phases: 
+                      The workshop consists of 3 phases:
                       <ul><li>General presentation of what a business plan should target - 1 hour</li>
                       <li>"Home study" with a worksheet for 1-2 hours during the lunch break</li>
                       <li>Project review and discussion</li>
@@ -799,7 +800,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
               </div>
             </div>
             </div>
-            
+
         	<div class="row">
             <div class="col talk">
               <div class="time break-time">
@@ -846,9 +847,9 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
               </div>
             </div>
           </div>
-         
-          
-          
+
+
+
           <div class="row">
             <div class="col talk">
               <div class="time">
@@ -931,7 +932,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
               <div class="speech">
                 <h3>TBA</h3>
                 <div class="details" data-toggle="modal" data-target="#timobejan">
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                  <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
                   <div class="info">
                     <div class="tag-line">speaker</div>
                     <div class="name">Timo Bejan</div>
@@ -958,7 +959,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
               </div>
             </div>
           </div>
-            
+
           <div class="row">
             <div class="col talk">
               <div class="time">
@@ -994,9 +995,9 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
               </div>
             </div>
           </div>
-            
-          
-		  
+
+
+
         </div>
       </div>
     </div>
@@ -1021,7 +1022,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
             </object></div>
 			<div class="row">
 			<span class="ehealth-heading2">Put your skills to the test</span>
-			<p>Enjoy the thrill of short-time problem solving without the need to sacrifice an entire weekend.</p></div>		
+			<p>Enjoy the thrill of short-time problem solving without the need to sacrifice an entire weekend.</p></div>
         </div>
         <div class="col ehealth-description">
 			<div class="row ehealth-icons"><object type="image/svg+xml" data="assets/images/dissemble.svg" class="logo" height="100px">
@@ -1037,7 +1038,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
             </object></div>
 			<div class="row">
 			<span class="ehealth-heading2">Use your brain power</span>
-			Working without a team has it's advantages. No need to split prizes, for example ;)</div>	
+			Working without a team has it's advantages. No need to split prizes, for example ;)</div>
         </div>
     </div>
     <div class="row">
@@ -1052,56 +1053,57 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 </section>
 
 <section id="sponsors" class="content sponsors text-center white-bg">
-        <h1>SPONSORS</h1>
-        <h2>Platinum Sponsors</h2>
-        <ul class="thumbnails-list">
-            <li>
-                <a title="Flex" target="_blank" href="https://flex.com/">
-                    <img width="226" height="219" src="assets/logo/hacktalks_logo_flex.png" alt="Flex">
-                </a>
-            </li>
-            <li>
-                <a title="Hella" target="_blank" href="https://www.hella.com/hella-ro/">
-                    <img width="226" height="219" src="assets/logo/hacktalks_logo_hella.png" alt="Hella">
-                </a>
-            </li>
-            <li>
-                <a title="Intel" target="_blank"
-                   href="https://www.intel.com/content/www/us/en/jobs/locations/romania.html">
-                    <img width="226" height="219" src="assets/logo/hacktalks_logo_intel.png" alt="Intel">
-                </a>
-            </li>
-        </ul>
-        <h2>Banking Partner</h2>
-        <ul class="thumbnails-list">
-            <li>
-                <a title="BRD" target="_blank" href="https://www.brd.ro/">
-                    <img width="226" height="219" src="assets/logo/hacktalks_logo_brd.png" alt="BRD">
-                </a>
-            </li>
-        </ul>
+    <h1>SPONSORS</h1>
+    <h2>Platinum Sponsors</h2>
+    <ul class="thumbnails-list">
+      <li>
+        <a title="Flex" target="_blank" href="https://flex.com/">
+          <img width="226" height="219" src="assets/logo/hacktalks_logo_flex.png" alt="Flex">
+        </a>
+      </li>
+      <li>
+        <a title="Hella" target="_blank" href="https://www.hella.com/hella-ro/">
+          <img width="226" height="219" src="assets/logo/hacktalks_logo_hella.png" alt="Hella">
+        </a>
+      </li>
 
-        <h2>Gold Sponsors</h2>
-        <ul class="thumbnails-list">
-            <li>
-                <a title="Ness" target="_blank" href="http://flex.ro/">
-                    <img width="175" height="175" src="assets/logo/hacktalks_logo_ness.png" alt="Ness">
-                </a>
-            </li>
-        </ul>
-        <h2>Partners</h2>
-        <ul class="thumbnails-list">
-            <li>
-                <a title="DevPlant" target="_blank" href="http://devplant.ro/">
-                    <img width="175" height="175" src="assets/logo/hacktalks_logo_devplant.png" alt="Devplant">
-                </a>
-            </li>
-             <li>
-                <a title="ITschool" target="_blank" href="http://itschool.ro/">
-                    <img width="175" height="175" src="assets/logo/hacktalks_logo_itschool.png" alt="ITschool">
-                </a>
-            </li>
-        </ul>
+    </ul>
+    <h2>Banking Partner</h2>
+    <ul class="thumbnails-list">
+      <li>
+        <a title="BRD" target="_blank" href="https://www.brd.ro/">
+          <img width="226" height="219" src="assets/logo/hacktalks_logo_brd.png" alt="BRD">
+        </a>
+      </li>
+    </ul>
+
+    <h2>Gold Sponsors</h2>
+    <ul class="thumbnails-list">
+        <li>
+            <a title="DevPlant" target="_blank" href="http://devplant.ro/">
+                <img width="175" height="175" src="assets/logo/hacktalks_logo_devplant.png" alt="DevPlant">
+            </a>
+        </li>
+        <li>
+          <a title="Intel" target="_blank" href="https://www.intel.com/content/www/us/en/jobs/locations/romania.html">
+            <img width="175" height="175" src="assets/logo/hacktalks_logo_intel.png" alt="Intel">
+          </a>
+        </li>
+
+      <li>
+        <a title="Ness" target="_blank" href="http://ness.ro/">
+          <img width="175" height="175" src="assets/logo/hacktalks_logo_ness.png" alt="Ness">
+        </a>
+      </li>
+    </ul>
+    <h2>Partners</h2>
+    <ul class="thumbnails-list">
+      <li>
+        <a title="ITschool" target="_blank" href="http://itschool.ro/">
+          <img width="175" height="175" src="assets/logo/hacktalks_logo_itschool.png" alt="ITschool">
+        </a>
+      </li>
+    </ul>
         <h2>BROUGHT TO YOU BY</h2>
         <ul class="thumbnails-list">
             <li>
@@ -1115,7 +1117,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 </a>
             </li>
         </ul>
-        
+
         <div class="content">
 
             <div class="title text-center">
@@ -1226,7 +1228,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
     });
     function initMap() {
 
-        var bibilioteca = {lat: 45.7471671, lng: 21.2266917};
+        var bibilioteca = {lat: 45.7473489, lng: 21.2284555};
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 16,
             center: bibilioteca,
