@@ -271,43 +271,37 @@
               <div class="time">
                 13:30 - <i class="k2"></i>
               </div>
-              <div class="speech">
-                <h3>Restorative biometrics - 3D printing & milling natural smiles</h3>
-                <div class="details" data-toggle="modal" data-target="#florincofar"><!-- data-toggle="modal" data-target="#florincofar">-->
-                  <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
-                  <div class="info">
 
-                    <div class="name">Florin Cofar</div>
-                    <div class="title">DentCof</div>
-                  </div>
-                </div>
+          <div class="speech">
+            <h3>Solving Real World Problems with Software</h3>
+            <div class="details" data-toggle="modal" data-target="#radujakab">
+              <div class="avatar" style="background-image: url('./assets/speakers/radu_jakab.jpg')"></div>
+              <div class="info">
+                <div class="name">Radu Jakab</div>
+                <div class="title">ZeroCozi</div>
               </div>
-              <!-- Modal -->
-              <div class="modal fade" id="florincofar" tabindex="-1" role="dialog" aria-labelledby="florincofar" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" >Dr. Florin Cofar</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <h3>Bio</h3>
-                      He attended University of Victor Babes, Timisoara, where he
-                      received his degree in dentistry in 2007. He is a post-graduate of NYU College
-                      of Dentistry, and a Harvard Business school attendee.
-                      <br></br>
-                      He is an international speaker on Dental Aesthetics, Digital Dentistry, Smile
-                      Design, having lectured in more than 30 countries, including respected
-                      Academies like The American Academy of Cosmetic Dentistry, and Brazilian
-                      Academy of Cosmetic Dentistry.
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="radujakab" tabindex="-1" role="dialog" aria-labelledby="radujakab" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" >Radu Jakab</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h3>Bio</h3>
+                  After an extensive Business Analyst and Software Development career, Radu founded ZeroCozi, a startup company aimed at building a state-of-the-art queueing system - digital, online, pay-per-use.
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
           <div class="row">
             <div class="col talk red">
               <div class="time">
@@ -352,35 +346,45 @@
                 14:30 - <i class="k2"></i>
               </div>
               <div class="speech">
-                <h3>Solving Real World Problems with Software</h3>
-                <div class="details" data-toggle="modal" data-target="#radujakab">
-                  <div class="avatar" style="background-image: url('./assets/speakers/radu_jakab.jpg')"></div>
+                <h3>Restorative biometrics - 3D printing & milling natural smiles</h3>
+                <div class="details" data-toggle="modal" data-target="#florincofar"><!-- data-toggle="modal" data-target="#florincofar">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
                   <div class="info">
 
-                    <div class="name">Radu Jakab</div>
-                    <div class="title">ZeroCozi</div>
+                    <div class="name">Florin Cofar</div>
+                    <div class="title">DentCof</div>
                   </div>
                 </div>
               </div>
               <!-- Modal -->
-              <div class="modal fade" id="radujakab" tabindex="-1" role="dialog" aria-labelledby="radujakab" aria-hidden="true">
+              <div class="modal fade" id="florincofar" tabindex="-1" role="dialog" aria-labelledby="florincofar" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Radu Jakab</h5>
+                      <h5 class="modal-title" >Dr. Florin Cofar</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
                       <h3>Bio</h3>
-                      After an extensive Business Analyst and Software Development career, Radu founded ZeroCozi, a startup company aimed at building a state-of-the-art queueing system - digital, online, pay-per-use.
+                      He attended University of Victor Babes, Timisoara, where he
+                      received his degree in dentistry in 2007. He is a post-graduate of NYU College
+                      of Dentistry, and a Harvard Business school attendee.
+                      <br></br>
+                      He is an international speaker on Dental Aesthetics, Digital Dentistry, Smile
+                      Design, having lectured in more than 30 countries, including respected
+                      Academies like The American Academy of Cosmetic Dentistry, and Brazilian
+                      Academy of Cosmetic Dentistry.
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+              </div>
+              </div>
+
+
+
           <div class="row">
             <div class="col talk red">
               <div class="time">
