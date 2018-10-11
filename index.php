@@ -22,7 +22,7 @@
     <meta property="og:image" content="https://hacktalks.ro/assets/images/hacktalks_2018_logo.png"/>
     <meta property="og:site_name" content="Hacktalks 2018"/>
     <meta property="og:description"
-          content="Conference on IoT, eHealth, AI and more happening in Timisoara on 15-16 October 2018"/>
+          content="Conference on IoT, eHealth, AI and more happening in Timisoara on 15th and 16th October 2018"/>
 
 
     <!-- Bootstrap CSS -->
@@ -70,7 +70,7 @@
         <div class="col heading text-center">{IoT.eHealth.AI}</div>
     </div>
     <div class="row">
-        <div class="col date">15-16 - Oct.2018</div>
+        <div class="col date">15-16 Oct.2018</div>
     </div>
     <div class="row">
         <div class="col text-center intro">
@@ -272,7 +272,7 @@
                 13:30 - <i class="k2"></i>
               </div>
               <div class="speech">
-                <h3>TBA</h3>
+                <h3>Restorative biometrics - 3D printing & milling natural smiles</h3>
                 <div class="details" data-toggle="modal" data-target="#florincofar"><!-- data-toggle="modal" data-target="#florincofar">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
                   <div class="info">
@@ -567,7 +567,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 10:00 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>TBA</h3>
+                <h3>Civic technology</h3>
                 <div class="details" data-toggle="modal" data-target="#williamtyner">
                   <div class="avatar" style="background-image: url('./assets/speakers/william_tyner.jpg')"></div>
                   <div class="info">
