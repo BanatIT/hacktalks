@@ -499,13 +499,13 @@
                 16:30 - <i class="k2"></i>
               </div>
               <div class="speech">
-                <h3>Developing on large scale applications</h3>
+                <h3>Developing on Large Scale Applications</h3>
                 <div class="details" data-toggle="modal" data-target="#adrianiorgu">
                   <div class="avatar" style="background-image: url('./assets/speakers/adrian_iorgu.jpg')"></div>
                   <div class="info">
 
                     <div class="name">Adrian Iorgu</div>
-                    <div class="title">Freelance Consultant</div>
+                    <div class="title">Freelance Consultant & Sticore MVP</div>
                   </div>
                 </div>
               </div>
