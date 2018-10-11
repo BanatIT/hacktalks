@@ -466,7 +466,7 @@ body {
 .hacktalks-schedule .speech .info {
     padding-left: 5px;
 }
-.hacktalks-schedule .speech .avatar {
+.avatar {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -476,6 +476,15 @@ body {
     min-width: 50px;
     min-height: 50px;
     display: inline-block;
+}
+
+.modal-body .avatar {
+  height: 150px;
+  width: 150px;
+  min-width: 50px;
+  min-height: 50px;
+  display: block;
+  margin-bottom: 5px;
 }
 .hacktalks-schedule .speech .tag-line {
     height: 16px;
