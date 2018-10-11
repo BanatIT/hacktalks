@@ -134,7 +134,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/anna_boros.jpg')"></div>
                       Anna deleted autoexec.bat on her parents' Windows 3.1 computer many years ago because 21Mb of space were simply not enough.
                       Panic ensued. 'Till this day, nobody knows.
                       <br/><br/>
@@ -175,7 +175,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/marco_plus_one.png')"></div>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                       nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -258,7 +258,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/calin_brandabur.jpg')"></div>
                       Calin is a Senior Software development engineer, expert software architect, excellent software project management, software development workflow analyst with 10 years experience in software industry, working with several fortune 500 companies like O2 (Germany, UK, Ireland), T-Mobile (USA, Germany), Mobilcom, Eplus, BASF (Germany).
                       <br/><br/>
                       He is the founder and CTO of Symme3D.
@@ -267,46 +267,42 @@
                 </div>
               </div>
             </div>
+
             <div class="col talk">
               <div class="time">
                 13:30 - <i class="k2"></i>
               </div>
               <div class="speech">
-                <h3>TBA</h3>
-                <div class="details" data-toggle="modal" data-target="#florincofar"><!-- data-toggle="modal" data-target="#florincofar">-->
-                  <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
+                <h3>Solving Real World Problems with Software</h3>
+                <div class="details" data-toggle="modal" data-target="#radujakab">
+                  <div class="avatar" style="background-image: url('./assets/speakers/radu_jakab.jpg')"></div>
                   <div class="info">
 
-                    <div class="name">Florin Cofar</div>
-                    <div class="title">DentCof</div>
+                    <div class="name">Radu Jakab</div>
+                    <div class="title">ZeroCozi</div>
                   </div>
                 </div>
               </div>
               <!-- Modal -->
-              <div class="modal fade" id="florincofar" tabindex="-1" role="dialog" aria-labelledby="florincofar" aria-hidden="true">
+              <div class="modal fade" id="radujakab" tabindex="-1" role="dialog" aria-labelledby="radujakab" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Dr. Florin Cofar</h5>
+                      <h5 class="modal-title" >Radu Jakab</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
-                      He attended University of Victor Babes, Timisoara, where he
-                      received his degree in dentistry in 2007. He is a post-graduate of NYU College
-                      of Dentistry, and a Harvard Business school attendee.
-                      <br></br>
-                      He is an international speaker on Dental Aesthetics, Digital Dentistry, Smile
-                      Design, having lectured in more than 30 countries, including respected
-                      Academies like The American Academy of Cosmetic Dentistry, and Brazilian
-                      Academy of Cosmetic Dentistry.
+                      <div class="avatar" style="background-image: url('./assets/speakers/radu_jakab.jpg')"></div>
+                      After an extensive Business Analyst and Software Development career, Radu founded ZeroCozi, a startup company aimed at building a state-of-the-art queueing system - digital, online, pay-per-use.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
+
           </div>
           <div class="row">
             <div class="col talk">
@@ -335,7 +331,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/bogdan_bugarschi.png')"></div>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                       nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -347,34 +343,42 @@
                 </div>
               </div>
             </div>
+
             <div class="col talk">
               <div class="time">
                 14:30 - <i class="k2"></i>
               </div>
               <div class="speech">
-                <h3>Solving Real World Problems with Software</h3>
-                <div class="details" data-toggle="modal" data-target="#radujakab">
-                  <div class="avatar" style="background-image: url('./assets/speakers/radu_jakab.jpg')"></div>
+                <h3>Restorative biometrics - 3D printing & milling natural smiles</h3>
+                <div class="details" data-toggle="modal" data-target="#florincofar" data-toggle="modal" data-target="#florincofar">
+                  <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
                   <div class="info">
 
-                    <div class="name">Radu Jakab</div>
-                    <div class="title">ZeroCozi</div>
+                    <div class="name">Florin Cofar</div>
+                    <div class="title">DentCof</div>
                   </div>
                 </div>
               </div>
               <!-- Modal -->
-              <div class="modal fade" id="radujakab" tabindex="-1" role="dialog" aria-labelledby="radujakab" aria-hidden="true">
+              <div class="modal fade" id="florincofar" tabindex="-1" role="dialog" aria-labelledby="florincofar" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Radu Jakab</h5>
+                      <h5 class="modal-title" >Dr. Florin Cofar</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
-                      After an extensive Business Analyst and Software Development career, Radu founded ZeroCozi, a startup company aimed at building a state-of-the-art queueing system - digital, online, pay-per-use.
+                      <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
+                      He attended University of Victor Babes, Timisoara, where he
+                      received his degree in dentistry in 2007. He is a post-graduate of NYU College
+                      of Dentistry, and a Harvard Business school attendee.
+                      <br></br>
+                      He is an international speaker on Dental Aesthetics, Digital Dentistry, Smile
+                      Design, having lectured in more than 30 countries, including respected
+                      Academies like The American Academy of Cosmetic Dentistry, and Brazilian
+                      Academy of Cosmetic Dentistry.
                     </div>
                   </div>
                 </div>
@@ -408,7 +412,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/radu_milos.jpg')"></div>
                       Radu has solid experience in Java Web application development throughout multiple business domains (banking, telecom, logistics, distribution).
                       <br/><br/>
                       Working together with a very talented team, Radu created software products in many places around the globe and recently launched PontajOK.
@@ -443,7 +447,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/rod_smith.jpeg')"></div>
                       I am CEO and Founder of RealtyProfiler.com, CryptoOutsourcing.com and C-ARBI.com.<br/><br/>With over 20 years of experience starting and managing businesses in Asia, I have a solid background in planning, setting up, managing and growing innovative businesses focused on outsourcing and technical services.
                     </div>
                   </div>
@@ -516,14 +520,13 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
-                      Results-oriented and self-motivated lead engineer with a focus on delivering high-quality code and products in high traffic environments. 13+ years of experience in the Internet industry, specialized in solutions architecture, development processes and business analysis.
-<br/><br/>
-Owner of Sitecore Consultancy Agency: www.actstudio.ro
-<br/><br/>
-Awards: Sitecore Technology MVP 2016 & 2017, Sitecore 9 Certified
-<br/><br/>
-My unique blend of front-end and back-end skills coupled with my hard work ethic and creative thinking ensure my work is always of the highest standard.
+                      <div class="avatar" style="background-image: url('./assets/speakers/adrian_iorgu.jpg')"></div>
+                      Results-oriented and self-motivated lead engineer with a focus on delivering high-quality code and products in high traffic environments. 13+ years of experience in the Internet industry, specialized in solutions architecture, development processes and business analysis.<br/><br/>
+                      Owner of Sitecore Consultancy Agency: www.actstudio.ro
+                      <br/><br/>
+                      Awards: Sitecore Technology MVP 2016 & 2017, Sitecore 9 Certified
+                      <br/><br/>
+                      My unique blend of front-end and back-end skills coupled with my hard work ethic and creative thinking ensure my work is always of the highest standard.
                     </div>
                   </div>
                 </div>
@@ -588,7 +591,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/william_tyner.jpg')"></div>
                       Will is a Fulbright - National Geographic Digital Storytelling Fellow & UX Researcher at Google.
                       <br/><br/>
                       Read more about him and his work at williamtyner.com
@@ -669,7 +672,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/octavian_borcan.png')"></div>
                       As a Senior Data Acquisition & Community Lead, Octavian is working as designating expert in consolidating HERE data&services for Romania&Moldova thru collection planning, coding, sourcing, remote detection&analytic, crowdsourcing, in order to increase awareness about GIS&mapping technologies in academic area, running events related to education&business area.
                     </div>
                   </div>
@@ -705,7 +708,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/sorin_guga.jpg')"></div>
                       Experienced PHP Developer with a demonstrated history of working in the computer software industry. Skilled in PHP, JavaScript, Database Architecture and embedded C. Strong engineering professional with a Bachelor’s Degree focused in Computer Science from Politehnica University of Timisoara.
                       <br/><br/>
                       Sorin will be talking about PREi, an easily configurable firmware for ESP micro-controllers that shifts the heavy programming load from Embedded to Web.
@@ -784,7 +787,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                       </button>
                     </div>
                      <div class="modal-body">
-                      <h3>Rod Smith - Business Plan Workshop</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/rod_smith.jpeg')"></div>
                       The workshop consists of 3 phases:
                       <ul><li>General presentation of what a business plan should target - 1 hour</li>
                       <li>"Home study" with a worksheet for 1-2 hours during the lunch break</li>
@@ -836,6 +839,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                       </button>
                     </div>
                     <div class="modal-body">
+                      <div class="avatar" style="background-image: url('./assets/speakers/radu_milici.jpg')"></div>
                       Learn the fundamentals of 3D and draw beautiful scenes in the browser with zero plugins using plain old javascript.
                     </div>
                   </div>
@@ -873,7 +877,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/alin_dobre.jpg')"></div>
                       Alin is "The Dude at IBM".<br/><br/>
                       He will demo a rapid way of building a virtual assistant using Watson services, the IBM cloud and NodeRED.
                     </div>
@@ -907,7 +911,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/petronela_sandulache.jpg')"></div>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                       nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -926,7 +930,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 15:30 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>Reactive Web Applications with Spring Boot</h3>
+                <h3>Building Apps Rly Fast</h3>
                 <div class="details" data-toggle="modal" data-target="#timobejan">
                   <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
                   <div class="info">
@@ -947,7 +951,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
                       Timo will blow your mind.<br/><br/>
                     </div>
                   </div>
@@ -984,7 +988,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
+                      <div class="avatar" style="background-image: url('./assets/speakers/val_muresan.jpg')"></div>
 
                     </div>
                   </div>
