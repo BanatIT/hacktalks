@@ -932,7 +932,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 15:30 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>Reactive Web Applications with Spring Boot</h3>
+                <h3>Building Apps rly Fast</h3>
                 <div class="details" data-toggle="modal" data-target="#timobejan">
                   <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
                   <div class="info">
