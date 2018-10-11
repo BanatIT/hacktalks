@@ -93,10 +93,10 @@
     <h1>Agenda</h1>
     <div class="container hacktalks-schedule">
       <div class="row hacktalks-schedule-half">
-        <div class="col green">
+        <div class="col blue">
           <div class="room">Monday - 15th Oct.</div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time break-time">
                 09:00
               </div>
@@ -109,16 +109,15 @@
 
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time">
-                10:00 - Auditorium
+                10:00 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>How Not to S#ck at Programming</h3>
                 <div class="details" data-toggle="modal" data-target="#annaboros">
                   <div class="avatar" style="background-image: url('./assets/speakers/anna_boros.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
                     <div class="name">Anna Boros</div>
                     <div class="title">President of Banat IT</div>
                   </div>
@@ -150,16 +149,16 @@
 
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time">
-                11:00 - Auditorium
+                11:00 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>Developing Connected Medical Devices for Real Needs</h3>
                 <div class="details"><!-- data-toggle="modal" data-target="#marcorigamonti">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/marco_plus_one.png')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Marco Rigamonti, Igor Bulavitchi</div>
                     <div class="title">Flex Milano Design Center</div>
                   </div>
@@ -191,16 +190,15 @@
 
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk red">
               <div class="time">
-                12:00 - K1
+                12:00 - <i class="k1"></i>
               </div>
               <div class="speech">
                 <h3>eHealth Challenges Presentation</h3>
                 <div class="details" onclick="document.getElementById('ehealth').scrollIntoView({behavior: 'smooth'});">
                   <div class="avatar" style="background-image: url('./assets/logo/hacktalks_logo_flex.png')"></div>
                   <div class="info">
-                    <div class="tag-line">powered by</div>
                   </div>
                 </div>
               </div>
@@ -208,7 +206,7 @@
 
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time break-time">
                 12:30
               </div>
@@ -221,7 +219,7 @@
 
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time break-time">
                 13:30 - Lobby
               </div>
@@ -234,16 +232,16 @@
 
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk red">
               <div class="time">
-                13:30 - K1
+                13:30 - <i class="k1"></i>
               </div>
               <div class="speech">
                 <h3>3D Printing Functional Organs</h3>
                 <div class="details" data-toggle="modal" data-target="#calinbrandabur">
                   <div class="avatar" style="background-image: url('./assets/speakers/calin_brandabur.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Calin Brandabur</div>
                     <div class="title">Symme3d</div>
                   </div>
@@ -269,16 +267,16 @@
                 </div>
               </div>
             </div>
-            <div class="col talk">
+            <div class="col talk yellow">
               <div class="time">
-                13:30 - K2
+                13:30 - <i class="k2"></i>
               </div>
               <div class="speech">
                 <h3>TBA</h3>
                 <div class="details" data-toggle="modal" data-target="#florincofar"><!-- data-toggle="modal" data-target="#florincofar">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Florin Cofar</div>
                     <div class="title">DentCof</div>
                   </div>
@@ -311,16 +309,16 @@
             </div>
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk red">
               <div class="time">
-                14:30 - K1
+                14:30 - <i class="k1"></i>
               </div>
               <div class="speech">
                 <h3>Data all the things</h3>
                 <div class="details"><!-- data-toggle="modal" data-target="#bogdanbugarschi">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/bogdan_bugarschi.png')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Bogdan Bugarschi</div>
                     <div class="title">Visual Retailing</div>
                   </div>
@@ -349,16 +347,16 @@
                 </div>
               </div>
             </div>
-            <div class="col talk">
+            <div class="col talk yellow">
               <div class="time">
-                14:30 - K2
+                14:30 - <i class="k2"></i>
               </div>
               <div class="speech">
                 <h3>Solving Real World Problems with Software</h3>
                 <div class="details" data-toggle="modal" data-target="#radujakab">
                   <div class="avatar" style="background-image: url('./assets/speakers/radu_jakab.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Radu Jakab</div>
                     <div class="title">ZeroCozi</div>
                   </div>
@@ -384,16 +382,16 @@
             </div>
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk red">
               <div class="time">
-                15:30 - K1
+                15:30 - <i class="k1"></i>
               </div>
               <div class="speech">
                 <h3>Product Development for the Local Market</h3>
                 <div class="details" data-toggle="modal" data-target="#radumilos">
                   <div class="avatar" style="background-image: url('./assets/speakers/radu_milos.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Radu Milos</div>
                     <div class="title">PontajOK</div>
                   </div>
@@ -419,16 +417,16 @@
                 </div>
               </div>
             </div>
-            <div class="col talk">
+            <div class="col talk yellow">
               <div class="time">
-                15:30 - K2
+                15:30 - <i class="k2"></i>
               </div>
               <div class="speech">
                 <h3>Translate Your Business with AI</h3>
                 <div class="details" data-toggle="modal" data-target="#rodsmith">
                   <div class="avatar" style="background-image: url('./assets/speakers/rod_smith.jpeg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Rod Smith</div>
                     <div class="title">RealtyProfiler.com</div>
                   </div>
@@ -454,16 +452,16 @@
             </div>
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk red">
               <div class="time">
-                16:30 - K1
+                16:30 - <i class="k1"></i>
               </div>
               <div class="speech">
                 <h3>TBA</h3>
                 <div><!--  class="details" data-toggle="modal" data-target="#ness">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">TBA</div>
                     <div class="title">Ness</div>
                   </div>
@@ -492,16 +490,16 @@
                 </div>
               </div>
             </div>
-            <div class="col talk">
+            <div class="col talk yellow">
               <div class="time">
-                16:30 - K2
+                16:30 - <i class="k2"></i>
               </div>
               <div class="speech">
                 <h3>Developing on large scale applications</h3>
                 <div class="details" data-toggle="modal" data-target="#adrianiorgu">
                   <div class="avatar" style="background-image: url('./assets/speakers/adrian_iorgu.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Adrian Iorgu</div>
                     <div class="title">Freelance Consultant</div>
                   </div>
@@ -548,10 +546,10 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
         </div>
       </div>
       <div class="row hacktalks-schedule-half">
-        <div class="col yellow">
+        <div class="col blue">
           <div class="room">Tuesday - 16th Oct.</div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time break-time">
                 09:00
               </div>
@@ -564,16 +562,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time">
-                10:00 - Auditorium
+                10:00 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>TBA</h3>
                 <div class="details" data-toggle="modal" data-target="#williamtyner">
                   <div class="avatar" style="background-image: url('./assets/speakers/william_tyner.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">William Tyner</div>
                     <div class="title">Google</div>
                   </div>
@@ -604,16 +602,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time">
-                11:00 - Auditorium
+                11:00 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>TBA</h3>
                 <div><!-- class="details" data-toggle="modal" data-target="#brd">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">TBA</div>
                     <div class="title">BRD</div>
                   </div>
@@ -645,16 +643,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time">
-                11:30 - Auditorium
+                11:30 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>Designing Dynamic Map Experiences</h3>
                 <div class="details" data-toggle="modal" data-target="#octavianborcan">
                   <div class="avatar" style="background-image: url('./assets/speakers/octavian_borcan.png')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Octavian Borcan</div>
                     <div class="title">Here Technologies</div>
                   </div>
@@ -681,16 +679,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time">
-                12:00 - Auditorium
+                12:00 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>PREi - Pseudo-REST ESP Interface</h3>
                 <div class="details" data-toggle="modal" data-target="#soringuga">
                   <div class="avatar" style="background-image: url('./assets/speakers/sorin_guga.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Sorin Guga</div>
                     <div class="title">Software Developer</div>
                   </div>
@@ -722,16 +720,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
 
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time">
-                12:30 - Auditorium
+                12:30 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>Cybersecurity in Mobile Medical Apps</h3>
                 <div><!-- class="details" data-toggle="modal" data-target="#flex2">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Marco Rigamonti</div>
                     <div class="title">Flex Milano Design Center</div>
                   </div>
@@ -760,16 +758,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 </div>
               </div>
             </div>
-            <div class="col talk">
+            <div class="col talk yellow">
               <div class="time">
-                12:30 - K2
+                12:30 - <i class="k2"></i>
               </div>
               <div class="speech">
                 <h3>Business Plan Workshop</h3>
                 <div class="details" data-toggle="modal" data-target="#rod2">
                   <div class="avatar" style="background-image: url('./assets/speakers/rod_smith.jpeg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Rod Smith</div>
                     <div class="title">RealtyProfiler.com</div>
                   </div>
@@ -802,7 +800,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
             </div>
 
         	<div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time break-time">
                 13:00
               </div>
@@ -814,16 +812,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
             </div>
           </div>
           <div class="row">
-	        <div class="col talk">
+	        <div class="col talk green">
               <div class="time">
-                14:00 - Auditorium
+                14:00 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>Realtime 3D in the Browser</h3>
                 <div class="details" data-toggle="modal" data-target="#radumilici">
                   <div class="avatar" style="background-image: url('./assets/speakers/radu_milici.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Radu Milici</div>
                     <div class="title">UI Developer</div>
                   </div>
@@ -851,16 +849,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
 
           <div class="row">
-            <div class="col talk">
+            <div class="col talk red">
               <div class="time">
-                14:30 - K1
+                14:30 - <i class="k1"></i>
               </div>
               <div class="speech">
                 <h3>A Quick Hack Using Watson's AI Services</h3>
                 <div class="details" data-toggle="modal" data-target="#alindobre">
                   <div class="avatar" style="background-image: url('./assets/speakers/alin_dobre.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Alin Dobre</div>
                     <div class="title">The Dude at IBM</div>
                   </div>
@@ -885,16 +883,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 </div>
               </div>
             </div>
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time">
-                14:50 - Auditorium
+                14:50 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>Blockchain: revolution and evolution</h3>
                 <div class="details" data-toggle="modal" data-target="#hella">
                   <div class="avatar" style="background-image: url('./assets/speakers/petronela_sandulache.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Petronela Sandulache</div>
                     <div class="title">Head of HELLA Fast Forward Berlin</div>
                   </div>
@@ -925,16 +923,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
             </div>
           </div>
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time">
-                15:30 - Auditorium
+                15:30 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>Reactive Web Applications with Spring Boot</h3>
                 <div class="details" data-toggle="modal" data-target="#timobejan">
                   <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Timo Bejan</div>
                     <div class="title">CTO at DevPlant</div>
                   </div>
@@ -962,16 +960,16 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
           </div>
 
           <div class="row">
-            <div class="col talk">
+            <div class="col talk green">
               <div class="time">
-                16:30 - Auditorium
+                16:30 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>TBA</h3>
                 <div><!-- class="details" data-toggle="modal" data-target="#valmuresan">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/val_muresan.jpg')"></div>
                   <div class="info">
-                    <div class="tag-line">speaker</div>
+
                     <div class="name">Valentin Muresan</div>
                     <div class="title">Intel Timisoara</div>
                   </div>

@@ -304,7 +304,7 @@ body {
     max-width: 700px;
     margin: 30px auto 0px auto;
 }
-.col.green, .col.yellow{
+.col.green, .col.yellow, .col.blue {
 	min-width: auto !important;
 }
 .hacktalks-schedule {
@@ -391,8 +391,8 @@ body {
 .hacktalks-schedule .green .speech.last {
     background-image: url("../images/bila_verde@2x.png");
 }
-.hacktalks-schedule .green .room,
-.hacktalks-schedule .green .break {
+.hacktalks-schedule .green.room,
+.hacktalks-schedule .green.break {
     background-color: #00BD5C;
 }
 .hacktalks-schedule .green .break {
@@ -423,6 +423,14 @@ body {
 }
 .hacktalks-schedule .red .break {
     background-image: url("../images/ribbon_margin_red@2x.jpg");
+}
+
+.hacktalks-schedule .blue .room,
+.hacktalks-schedule .blue .break {
+    background-color: #2F6AE0;
+}
+.hacktalks-schedule .blue .break {
+    background-image: url("../images/ribbon_margin_blue@2x.jpg");
 }
 .hacktalks-schedule .time {
     color: #454564;
@@ -489,7 +497,7 @@ body {
     font-weight: bold;
     line-height: 20px;
     margin-bottom: 0;
-    margin-top: -5px;
+    margin-top: 5px;
 }
 .hacktalks-schedule .speech .title {
     color: #454564;
@@ -505,4 +513,46 @@ body {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+i.aud {
+  visibility: none;
+}
+
+i.aud:after{
+  content: 'Auditorium';
+  visibility: visible;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 23px;
+  color: #00BD5C;
+}
+
+i.k1 {
+  visibility: none;
+}
+
+i.k1:after{
+  content: 'Amfitheater 1';
+  visibility: visible;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 23px;
+  color: #F05926;
+}
+
+i.k2 {
+  visibility: none;
+}
+
+i.k2:after{
+  content: 'Amfitheater 2';
+  visibility: visible;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 23px;
+  color: #FDB632;
 }
