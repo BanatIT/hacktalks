@@ -522,11 +522,11 @@ i.aud {
 i.aud:after{
   content: 'Auditorium';
   visibility: visible;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 16px;
   font-style: normal;
   line-height: 23px;
-  color: #00BD5C;
+  /* color: #F05926; */
 }
 
 i.k1 {
@@ -536,11 +536,11 @@ i.k1 {
 i.k1:after{
   content: 'Amfitheater 1';
   visibility: visible;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 16px;
   font-style: normal;
   line-height: 23px;
-  color: #F05926;
+  /* color: #00BD5C; */
 }
 
 i.k2 {
@@ -550,9 +550,9 @@ i.k2 {
 i.k2:after{
   content: 'Amfitheater 2';
   visibility: visible;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 16px;
   font-style: normal;
   line-height: 23px;
-  color: #FDB632;
+  /* color: #FDB632; */
 }
