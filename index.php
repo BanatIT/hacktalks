@@ -316,7 +316,7 @@
                 14:30 - K1
               </div>
               <div class="speech">
-                <h3>TBA</h3>
+                <h3>Data all the things</h3>
                 <div class="details"><!-- data-toggle="modal" data-target="#bogdanbugarschi">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/bogdan_bugarschi.png')"></div>
                   <div class="info">
@@ -856,7 +856,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 14:30 - K1
               </div>
               <div class="speech">
-                <h3>A quick hack using Watson's AI services</h3>
+                <h3>A Quick Hack Using Watson's AI Services</h3>
                 <div class="details" data-toggle="modal" data-target="#alindobre">
                   <div class="avatar" style="background-image: url('./assets/speakers/alin_dobre.jpg')"></div>
                   <div class="info">
@@ -890,13 +890,13 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 14:50 - Auditorium
               </div>
               <div class="speech">
-                <h3>TBA</h3>
-                <div><!-- class="details" data-toggle="modal" data-target="#hella">-->
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                <h3>Blockchain: revolution and evolution</h3>
+                <div class="details" data-toggle="modal" data-target="#hella">
+                  <div class="avatar" style="background-image: url('./assets/speakers/petronela_sandulache.jpg')"></div>
                   <div class="info">
                     <div class="tag-line">speaker</div>
-                    <div class="name">TBA</div>
-                    <div class="title">Hella</div>
+                    <div class="name">Petronela Sandulache</div>
+                    <div class="title">Head of HELLA Fast Forward Berlin</div>
                   </div>
                 </div>
               </div>
@@ -930,7 +930,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 15:30 - Auditorium
               </div>
               <div class="speech">
-                <h3>TBA</h3>
+                <h3>Reactive Web Applications with Spring Boot</h3>
                 <div class="details" data-toggle="modal" data-target="#timobejan">
                   <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
                   <div class="info">
@@ -958,6 +958,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 </div>
               </div>
             </div>
+            <div class="col"></div>
           </div>
 
           <div class="row">
