@@ -391,8 +391,8 @@ body {
 .hacktalks-schedule .green .speech.last {
     background-image: url("../images/bila_verde@2x.png");
 }
-.hacktalks-schedule .green.room,
-.hacktalks-schedule .green.break {
+.hacktalks-schedule .green .room,
+.hacktalks-schedule .green .break {
     background-color: #00BD5C;
 }
 .hacktalks-schedule .green .break {

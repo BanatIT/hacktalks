@@ -93,10 +93,10 @@
     <h1>Agenda</h1>
     <div class="container hacktalks-schedule">
       <div class="row hacktalks-schedule-half">
-        <div class="col blue">
+        <div class="col green">
           <div class="room">Monday - 15th Oct.</div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time break-time">
                 09:00
               </div>
@@ -109,7 +109,7 @@
 
           </div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time">
                 10:00 - <i class="aud"></i>
               </div>
@@ -149,7 +149,7 @@
 
           </div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time">
                 11:00 - <i class="aud"></i>
               </div>
@@ -190,7 +190,7 @@
 
           </div>
           <div class="row">
-            <div class="col talk red">
+            <div class="col talk">
               <div class="time">
                 12:00 - <i class="k1"></i>
               </div>
@@ -206,7 +206,7 @@
 
           </div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time break-time">
                 12:30
               </div>
@@ -219,7 +219,7 @@
 
           </div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time break-time">
                 13:30 - Lobby
               </div>
@@ -232,7 +232,7 @@
 
           </div>
           <div class="row">
-            <div class="col talk red">
+            <div class="col talk">
               <div class="time">
                 13:30 - <i class="k1"></i>
               </div>
@@ -267,7 +267,7 @@
                 </div>
               </div>
             </div>
-            <div class="col talk yellow">
+            <div class="col talk">
               <div class="time">
                 13:30 - <i class="k2"></i>
               </div>
@@ -309,7 +309,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col talk red">
+            <div class="col talk">
               <div class="time">
                 14:30 - <i class="k1"></i>
               </div>
@@ -347,7 +347,7 @@
                 </div>
               </div>
             </div>
-            <div class="col talk yellow">
+            <div class="col talk">
               <div class="time">
                 14:30 - <i class="k2"></i>
               </div>
@@ -382,7 +382,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col talk red">
+            <div class="col talk">
               <div class="time">
                 15:30 - <i class="k1"></i>
               </div>
@@ -417,7 +417,7 @@
                 </div>
               </div>
             </div>
-            <div class="col talk yellow">
+            <div class="col talk">
               <div class="time">
                 15:30 - <i class="k2"></i>
               </div>
@@ -452,7 +452,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col talk red">
+            <div class="col talk">
               <div class="time">
                 16:30 - <i class="k1"></i>
               </div>
@@ -490,7 +490,7 @@
                 </div>
               </div>
             </div>
-            <div class="col talk yellow">
+            <div class="col talk">
               <div class="time">
                 16:30 - <i class="k2"></i>
               </div>
@@ -546,10 +546,10 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
         </div>
       </div>
       <div class="row hacktalks-schedule-half">
-        <div class="col blue">
+        <div class="col yellow">
           <div class="room">Tuesday - 16th Oct.</div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time break-time">
                 09:00
               </div>
@@ -562,7 +562,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
           </div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time">
                 10:00 - <i class="aud"></i>
               </div>
@@ -602,7 +602,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
           </div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time">
                 11:00 - <i class="aud"></i>
               </div>
@@ -643,7 +643,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
           </div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time">
                 11:30 - <i class="aud"></i>
               </div>
@@ -679,7 +679,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
           </div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time">
                 12:00 - <i class="aud"></i>
               </div>
@@ -720,7 +720,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
 
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time">
                 12:30 - <i class="aud"></i>
               </div>
@@ -758,7 +758,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 </div>
               </div>
             </div>
-            <div class="col talk yellow">
+            <div class="col talk">
               <div class="time">
                 12:30 - <i class="k2"></i>
               </div>
@@ -800,7 +800,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
             </div>
 
         	<div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time break-time">
                 13:00
               </div>
@@ -812,7 +812,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
             </div>
           </div>
           <div class="row">
-	        <div class="col talk green">
+	        <div class="col talk">
               <div class="time">
                 14:00 - <i class="aud"></i>
               </div>
@@ -849,7 +849,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
 
 
           <div class="row">
-            <div class="col talk red">
+            <div class="col talk">
               <div class="time">
                 14:30 - <i class="k1"></i>
               </div>
@@ -883,7 +883,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 </div>
               </div>
             </div>
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time">
                 14:50 - <i class="aud"></i>
               </div>
@@ -923,7 +923,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
             </div>
           </div>
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time">
                 15:30 - <i class="aud"></i>
               </div>
@@ -960,7 +960,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
           </div>
 
           <div class="row">
-            <div class="col talk green">
+            <div class="col talk">
               <div class="time">
                 16:30 - <i class="aud"></i>
               </div>
