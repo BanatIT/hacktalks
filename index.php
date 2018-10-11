@@ -22,7 +22,7 @@
     <meta property="og:image" content="https://hacktalks.ro/assets/images/hacktalks_2018_logo.png"/>
     <meta property="og:site_name" content="Hacktalks 2018"/>
     <meta property="og:description"
-          content="Conference on IoT, eHealth, AI and more happening in Timisoara on 15th and 16th October 2018"/>
+          content="Conference on IoT, eHealth, AI and more happening in Timisoara on 15-16 October 2018"/>
 
 
     <!-- Bootstrap CSS -->
@@ -70,7 +70,7 @@
         <div class="col heading text-center">{IoT.eHealth.AI}</div>
     </div>
     <div class="row">
-        <div class="col date">15-16 Oct.2018</div>
+        <div class="col date">15-16 - Oct.2018</div>
     </div>
     <div class="row">
         <div class="col text-center intro">
@@ -128,7 +128,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Anna Boros - How not to s#ck at programming</h5>
+                      <h5 class="modal-title">Anna Boros - How not to s#ck at programming</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -160,7 +160,7 @@
                   <div class="info">
 
                     <div class="name">Marco Rigamonti, Igor Bulavitchi</div>
-                    <div class="title">Flex Milano Design Center</div>
+                    <div class="title">Flex Design Center Milano/Timisoara</div>
                   </div>
               </div>
               </div>
@@ -169,7 +169,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title">Mario Rigamonti</h5>
+                      <h5 class="modal-title">Mario Rigamonti - Developing Connected Medical Devices for Real Needs</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -252,7 +252,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title">Calin Brandabur</h5>
+                      <h5 class="modal-title">Calin Brandabur - 3D Printing Functional Organs</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -271,37 +271,43 @@
               <div class="time">
                 13:30 - <i class="k2"></i>
               </div>
+              <div class="speech">
+                <h3>TBA</h3>
+                <div class="details" data-toggle="modal" data-target="#florincofar"><!-- data-toggle="modal" data-target="#florincofar">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
+                  <div class="info">
 
-          <div class="speech">
-            <h3>Solving Real World Problems with Software</h3>
-            <div class="details" data-toggle="modal" data-target="#radujakab">
-              <div class="avatar" style="background-image: url('./assets/speakers/radu_jakab.jpg')"></div>
-              <div class="info">
-                <div class="name">Radu Jakab</div>
-                <div class="title">ZeroCozi</div>
+                    <div class="name">Florin Cofar</div>
+                    <div class="title">DentCof</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="florincofar" tabindex="-1" role="dialog" aria-labelledby="florincofar" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" >Dr. Florin Cofar</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Bio</h3>
+                      He attended University of Victor Babes, Timisoara, where he
+                      received his degree in dentistry in 2007. He is a post-graduate of NYU College
+                      of Dentistry, and a Harvard Business school attendee.
+                      <br></br>
+                      He is an international speaker on Dental Aesthetics, Digital Dentistry, Smile
+                      Design, having lectured in more than 30 countries, including respected
+                      Academies like The American Academy of Cosmetic Dentistry, and Brazilian
+                      Academy of Cosmetic Dentistry.
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <!-- Modal -->
-          <div class="modal fade" id="radujakab" tabindex="-1" role="dialog" aria-labelledby="radujakab" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" >Radu Jakab</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <h3>Bio</h3>
-                  After an extensive Business Analyst and Software Development career, Radu founded ZeroCozi, a startup company aimed at building a state-of-the-art queueing system - digital, online, pay-per-use.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
           <div class="row">
             <div class="col talk">
               <div class="time">
@@ -346,45 +352,35 @@
                 14:30 - <i class="k2"></i>
               </div>
               <div class="speech">
-                <h3>Restorative biometrics - 3D printing & milling natural smiles</h3>
-                <div class="details" data-toggle="modal" data-target="#florincofar"><!-- data-toggle="modal" data-target="#florincofar">-->
-                  <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
+                <h3>Solving Real World Problems with Software</h3>
+                <div class="details" data-toggle="modal" data-target="#radujakab">
+                  <div class="avatar" style="background-image: url('./assets/speakers/radu_jakab.jpg')"></div>
                   <div class="info">
 
-                    <div class="name">Florin Cofar</div>
-                    <div class="title">DentCof</div>
+                    <div class="name">Radu Jakab</div>
+                    <div class="title">ZeroCozi</div>
                   </div>
                 </div>
               </div>
               <!-- Modal -->
-              <div class="modal fade" id="florincofar" tabindex="-1" role="dialog" aria-labelledby="florincofar" aria-hidden="true">
+              <div class="modal fade" id="radujakab" tabindex="-1" role="dialog" aria-labelledby="radujakab" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Dr. Florin Cofar</h5>
+                      <h5 class="modal-title" >Radu Jakab</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
                       <h3>Bio</h3>
-                      He attended University of Victor Babes, Timisoara, where he
-                      received his degree in dentistry in 2007. He is a post-graduate of NYU College
-                      of Dentistry, and a Harvard Business school attendee.
-                      <br></br>
-                      He is an international speaker on Dental Aesthetics, Digital Dentistry, Smile
-                      Design, having lectured in more than 30 countries, including respected
-                      Academies like The American Academy of Cosmetic Dentistry, and Brazilian
-                      Academy of Cosmetic Dentistry.
+                      After an extensive Business Analyst and Software Development career, Radu founded ZeroCozi, a startup company aimed at building a state-of-the-art queueing system - digital, online, pay-per-use.
                     </div>
                   </div>
                 </div>
               </div>
-              </div>
-              </div>
-
-
-
+            </div>
+          </div>
           <div class="row">
             <div class="col talk">
               <div class="time">
@@ -499,13 +495,13 @@
                 16:30 - <i class="k2"></i>
               </div>
               <div class="speech">
-                <h3>Developing on Large Scale Applications</h3>
+                <h3>Developing on large scale applications</h3>
                 <div class="details" data-toggle="modal" data-target="#adrianiorgu">
                   <div class="avatar" style="background-image: url('./assets/speakers/adrian_iorgu.jpg')"></div>
                   <div class="info">
 
                     <div class="name">Adrian Iorgu</div>
-                    <div class="title">Freelance Consultant & Sticore MVP</div>
+                    <div class="title">Freelance Consultant</div>
                   </div>
                 </div>
               </div>
@@ -571,7 +567,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 10:00 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>Civic technology</h3>
+                <h3>TBA</h3>
                 <div class="details" data-toggle="modal" data-target="#williamtyner">
                   <div class="avatar" style="background-image: url('./assets/speakers/william_tyner.jpg')"></div>
                   <div class="info">
@@ -735,7 +731,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                   <div class="info">
 
                     <div class="name">Marco Rigamonti</div>
-                    <div class="title">Flex Milano Design Center</div>
+                    <div class="title">Flex Design Center Milano/Timisoara</div>
                   </div>
                 </div>
               </div>
@@ -782,15 +778,13 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Rod Smith</h5>
+                      <h5 class="modal-title">Rod Smith - Business Plan Workshop</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                      <div class="modal-body">
-                      <h3>Bio</h3>
-                      I am CEO and Founder of RealtyProfiler.com, CryptoOutsourcing.com and C-ARBI.com.<br/><br/>With over 20 years of experience starting and managing businesses in Asia, I have a solid background in planning, setting up, managing and growing innovative businesses focused on outsourcing and technical services.
-                      <h3>What we'll do</h3>
+                      <h3>Rod Smith - Business Plan Workshop</h3>
                       The workshop consists of 3 phases:
                       <ul><li>General presentation of what a business plan should target - 1 hour</li>
                       <li>"Home study" with a worksheet for 1-2 hours during the lunch break</li>
@@ -873,7 +867,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Alin Dobre</h5>
+                      <h5 class="modal-title" >Alin Dobre - A Quick Hack Using Watson's AI Services</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -893,7 +887,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
               </div>
               <div class="speech">
                 <h3>Blockchain: revolution and evolution</h3>
-                <div class="details" data-toggle="modal" data-target="#hella">
+                <div><!-- class="details" data-toggle="modal" data-target="#hella">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/petronela_sandulache.jpg')"></div>
                   <div class="info">
 
@@ -932,7 +926,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 15:30 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>Building Apps rly Fast</h3>
+                <h3>Reactive Web Applications with Spring Boot</h3>
                 <div class="details" data-toggle="modal" data-target="#timobejan">
                   <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
                   <div class="info">
@@ -947,7 +941,7 @@ My unique blend of front-end and back-end skills coupled with my hard work ethic
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Timo Bejan</h5>
+                      <h5 class="modal-title">Timo Bejan - Reactive Web Applications with Spring Boot</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
