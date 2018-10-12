@@ -353,7 +353,7 @@
                   <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
                   <div class="info">
                     <div class="name">Florin Cofar</div>
-                    <div class="title">DentCof</div>
+                    <div class="title">Dentcof</div>
                   </div>
                 </div>
               </div>
