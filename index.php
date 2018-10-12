@@ -953,7 +953,7 @@ Petronela started her career in Australia as an economist in a private equity-ba
                 16:30 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>TBA</h3>
+                <h3>Evolution Through Collaboration</h3>
                 <div><!-- class="details" data-toggle="modal" data-target="#valmuresan">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/val_muresan.jpg')"></div>
                   <div class="info">
