@@ -912,7 +912,7 @@ Petronela started her career in Australia as an economist in a private equity-ba
                 15:30 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>From Software Development to Home Cooking</h3>
+                <h3>TBA</h3>
                 <div><!--class="details" data-toggle="modal" data-target="#stefanszakal">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/stefan_szakal.jpg')"></div>
                   <div class="info">
