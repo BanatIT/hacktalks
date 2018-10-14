@@ -500,6 +500,11 @@ body {
     vertical-align: top;
     color: #fff;
 }
+
+.hacktalks-schedule .speech .tag-line.cancelled{
+  background-color: #F05926;
+}
+
 .hacktalks-schedule .speech .name {
     color: #454564;
     font-size: 14px;
