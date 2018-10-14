@@ -70,7 +70,7 @@
         <div class="col heading text-center">{IoT.eHealth.AI}</div>
     </div>
     <div class="row">
-        <div class="col date">15-16 - Oct.2018</div>
+        <div class="col date">15-16 Oct.2018</div>
     </div>
     <div class="row">
         <div class="col text-center intro">
@@ -238,7 +238,7 @@
               </div>
               <div class="speech">
                 <h3>3D Printing Functional Organs</h3>
-                <div><!-- class="details" data-toggle="modal" data-target="#calinbrandabur">-->
+                <div class="details" data-toggle="modal" data-target="#calinbrandabur">
                   <div class="avatar" style="background-image: url('./assets/speakers/calin_brandabur.jpg')"></div>
                   <div class="info">
                     <div class="tag-line cancelled">Cancelled</div>
@@ -314,7 +314,6 @@
                 <div class="details"><!-- data-toggle="modal" data-target="#bogdanbugarschi">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/bogdan_bugarschi.png')"></div>
                   <div class="info">
-
                     <div class="name">Bogdan Bugarschi</div>
                     <div class="title">Visual Retailing</div>
                   </div>
@@ -353,9 +352,8 @@
                 <div class="details" data-toggle="modal" data-target="#florincofar" data-toggle="modal" data-target="#florincofar">
                   <div class="avatar" style="background-image: url('./assets/speakers/florin_cofar.jpg')"></div>
                   <div class="info">
-
                     <div class="name">Florin Cofar</div>
-                    <div class="title">DentCof</div>
+                    <div class="title">Dentcof</div>
                   </div>
                 </div>
               </div>
@@ -406,7 +404,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Radu Milos</h5>
+                      <h5 class="modal-title" >Radu Milos - Product Development for the Local Market</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -441,7 +439,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Rod Smith</h5>
+                      <h5 class="modal-title" >Rod Smith - Translate Your Business with AI</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -461,34 +459,29 @@
                 16:30 - <i class="k1"></i>
               </div>
               <div class="speech">
-                <h3>TBA</h3>
-                <div><!--  class="details" data-toggle="modal" data-target="#ness">-->
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                <h3>Building Apps rly Fast</h3>
+                <div class="details" data-toggle="modal" data-target="#timobejan">
+                  <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
                   <div class="info">
 
-                    <div class="name">TBA</div>
-                    <div class="title">Ness</div>
+                    <div class="name">Timo Bejan</div>
+                    <div class="title">CTO at DevPlant</div>
                   </div>
                 </div>
               </div>
               <!-- Modal -->
-              <div class="modal fade" id="ness" tabindex="-1" role="dialog" aria-labelledby="ness" aria-hidden="true">
+              <div class="modal fade" id="timobejan" tabindex="-1" role="dialog" aria-labelledby="timobejan" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Ness</h5>
+                      <h5 class="modal-title">Timo Bejan - Building Apps rly Fast</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit anim id est laborum.
+                      <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
+                      Timo will blow your mind.<br/><br/>
                     </div>
                   </div>
                 </div>
@@ -514,7 +507,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Adrian Iorgu</h5>
+                      <h5 class="modal-title" >Adrian Iorgu - Developing on large scale applications</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -570,7 +563,7 @@
                 10:00 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>TBA</h3>
+                <h3>Civic Technology</h3>
                 <div class="details" data-toggle="modal" data-target="#williamtyner">
                   <div class="avatar" style="background-image: url('./assets/speakers/william_tyner.jpg')"></div>
                   <div class="info">
@@ -585,7 +578,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >William Tyner</h5>
+                      <h5 class="modal-title" >William Tyner - Civic Technology</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -610,34 +603,29 @@
                 11:00 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>TBA</h3>
-                <div><!-- class="details" data-toggle="modal" data-target="#brd">-->
-                  <div class="avatar" style="background-image: url('./assets/speakers/speaker.png')"></div>
+                <h3>Startup Programs. A Glimpse Into Opportunities of Testing Your Inner Entrepreneur</h3>
+                <div class="details" data-toggle="modal" data-target="#andreimunteanu">
+                  <div class="avatar" style="background-image: url('./assets/speakers/andrei_munteanu.jpg')"></div>
                   <div class="info">
 
-                    <div class="name">TBA</div>
-                    <div class="title">BRD</div>
+                    <div class="name">Andrei Munteanu</div>
+                    <div class="title">Founder of Cowork Timisoara</div>
                   </div>
               </div>
               </div>
               <!-- Modal -->
-              <div class="modal fade" id="brd" tabindex="-1" role="dialog" aria-labelledby="brd" aria-hidden="true">
+              <div class="modal fade" id="andreimunteanu" tabindex="-1" role="dialog" aria-labelledby="andreimunteanu" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >BRD</h5>
+                      <h5 class="modal-title">Andrei Munteanu - Startup Programs. A Glimpse Into Opportunities of Testing Your Inner Entrepreneur</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <h3>Bio</h3>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit anim id est laborum.
+                      <div class="avatar" style="background-image: url('./assets/speakers/andrei_munteanu.jpg')"></div>
+                      Andrei will talk about the local startup scene and how it compares to other startup ecosystems. There are plenty of development opportunities for anyone who wants to learn more about this field and Andrei will go through them as well.
                     </div>
                   </div>
                 </div>
@@ -666,7 +654,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Octavian Borcan</h5>
+                      <h5 class="modal-title" >Octavian Borcan - Designing Dynamic Map Experiences</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -693,7 +681,7 @@
                   <div class="info">
 
                     <div class="name">Sorin Guga</div>
-                    <div class="title">Software Developer</div>
+                    <div class="title">Software Developer at [e-spres-oh]</div>
                   </div>
                 </div>
               </div>
@@ -702,7 +690,7 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >Sorin Guga</h5>
+                      <h5 class="modal-title" >Sorin Guga - PREi - Pseudo-REST ESP Interface</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -847,9 +835,6 @@
               </div>
             </div>
           </div>
-
-
-
           <div class="row">
             <div class="col talk">
               <div class="time">
@@ -891,7 +876,7 @@
               </div>
               <div class="speech">
                 <h3>Blockchain: revolution and evolution</h3>
-                <div><!-- class="details" data-toggle="modal" data-target="#hella">-->
+                <div class="details" data-toggle="modal" data-target="#hella">
                   <div class="avatar" style="background-image: url('./assets/speakers/petronela_sandulache.jpg')"></div>
                   <div class="info">
 
@@ -905,19 +890,16 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" >TBA</h5>
+                      <h5 class="modal-title" >Petronela Sandulache - Head of HELLA Fast Forward Berlin</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
                       <div class="avatar" style="background-image: url('./assets/speakers/petronela_sandulache.jpg')"></div>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit anim id est laborum.
+Petronela is leading Hella Fast Forward Berlin – the pre-idea incubator where technology startups are built from the ground up. She and her team are focusing on future automotive problems today by experimenting with new tech like AI / ML, big data, distributed ledger technologies to identify compelling market solutions to electrification, connected vehicles and autonomous driving conundrums. So far, HFFW has successfully launched in the market two tech startups Brighter.ai and Yptokey.
+<br></br>
+Petronela started her career in Australia as an economist in a private equity-backed company, then joined PwC in the strategy consulting space. She holds a B.Econ from the University of Rome, and a M.Econ from the London School of Economics and Political Science and the University of Sydney. She is an honorary member of Beta Gamma Sigma. Her motto in life follows what Edison used to say: “There’s a way to do it better. Find it
                     </div>
                   </div>
                 </div>
@@ -930,34 +912,38 @@
                 15:30 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>Building Apps Rly Fast</h3>
-                <div class="details" data-toggle="modal" data-target="#timobejan">
-                  <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
+                <h3>TBA</h3>
+                <div><!--class="details" data-toggle="modal" data-target="#stefanszakal">-->
+                  <div class="avatar" style="background-image: url('./assets/speakers/stefan_szakal.jpg')"></div>
                   <div class="info">
 
-                    <div class="name">Timo Bejan</div>
-                    <div class="title">CTO at DevPlant</div>
+                    <div class="name">Stefan Szakal</div>
+                    <div class="title">CEO of HomeFresh</div>
                   </div>
                 </div>
               </div>
               <!-- Modal -->
-              <div class="modal fade" id="timobejan" tabindex="-1" role="dialog" aria-labelledby="timobejan" aria-hidden="true">
+              <div class="modal fade" id="stefanszakal" tabindex="-1" role="dialog" aria-labelledby="stefanszakal" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title">Timo Bejan - Reactive Web Applications with Spring Boot</h5>
+                      <h5 class="modal-title">TBA</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <div class="avatar" style="background-image: url('./assets/speakers/timo_bejan.jpeg')"></div>
+                      <div class="avatar" style="background-image: url('./assets/speakers/stefan_szakal.jpg')"></div>
                       Timo will blow your mind.<br/><br/>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+              </div>
+
+
+
+
             <div class="col"></div>
           </div>
 
@@ -967,7 +953,7 @@
                 16:30 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>TBA</h3>
+                <h3>Evolution Through Collaboration</h3>
                 <div><!-- class="details" data-toggle="modal" data-target="#valmuresan">-->
                   <div class="avatar" style="background-image: url('./assets/speakers/val_muresan.jpg')"></div>
                   <div class="info">
@@ -1102,10 +1088,17 @@
     <h2>Partners</h2>
     <ul class="thumbnails-list">
       <li>
+        <a title="Code4Romania" target="_blank" href="http://code4romania.ro/">
+          <img width="175" height="175" src="./assets/logo/hacktalks_logo_code4romania.png" alt="Code4Romania">
+        </a>
+      </li>
+
+      <li>
         <a title="ITschool" target="_blank" href="http://itschool.ro/">
           <img width="175" height="175" src="assets/logo/hacktalks_logo_itschool.png" alt="ITschool">
         </a>
       </li>
+
     </ul>
         <h2>BROUGHT TO YOU BY</h2>
         <ul class="thumbnails-list">
@@ -1212,13 +1205,10 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119873806-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-
     function gtag() {
         dataLayer.push(arguments);
     }
-
     gtag('js', new Date());
-
     gtag('config', 'UA-119873806-1');
 </script>
 <script type="text/javascript">
@@ -1230,7 +1220,6 @@
         });
     });
     function initMap() {
-
         var bibilioteca = {lat: 45.7473489, lng: 21.2284555};
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 16,
@@ -1240,13 +1229,11 @@
             scrollwheel: false,
             disableDoubleClickZoom: true
         });
-
         var marker = new google.maps.Marker({
             position: bibilioteca,
             map: map,
             title: 'Cantina Politehnica'
         });
-
     }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwtD15NnMp34yFbzMpnUsh0RfTvhgrkL0&callback=initMap"
