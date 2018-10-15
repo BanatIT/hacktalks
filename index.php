@@ -192,7 +192,7 @@
           <div class="row">
             <div class="col talk">
               <div class="time">
-                12:00 - <i class="k1"></i>
+                11:30 - <i class="aud"></i>
               </div>
               <div class="speech">
                 <h3>eHealth Challenges Presentation</h3>
