@@ -912,8 +912,8 @@ Petronela started her career in Australia as an economist in a private equity-ba
                 15:30 - <i class="aud"></i>
               </div>
               <div class="speech">
-                <h3>TBA</h3>
-                <div><!--class="details" data-toggle="modal" data-target="#stefanszakal">-->
+                <h3>Life After Tech</h3>
+                <div class="details" data-toggle="modal" data-target="#stefanszakal">
                   <div class="avatar" style="background-image: url('./assets/speakers/stefan_szakal.jpg')"></div>
                   <div class="info">
 
@@ -927,14 +927,14 @@ Petronela started her career in Australia as an economist in a private equity-ba
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title">TBA</h5>
+                      <h5 class="modal-title">Stefan Szakal</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
                       <div class="avatar" style="background-image: url('./assets/speakers/stefan_szakal.jpg')"></div>
-                      Timo will blow your mind.<br/><br/>
+                      Stefan will talk about how lessons learned turn into real world ventures.<br/><br/>
                     </div>
                   </div>
                 </div>
