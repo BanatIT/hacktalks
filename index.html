@@ -619,16 +619,22 @@
           <img width="175" height="175" src="assets/logo/hacktalks_logo_sustainalytics.png" alt="Sustainalytics">
         </a>
       </li>
-      <li>
-        <a title="3pillarglobal" target="_blank" href="https://www.3pillarglobal.com/">
-          <img width="175" height="175" src="assets/logo/hacktalks_logo_3pg.png" alt="3pillarglobal">
-        </a>
-      </li>
-      <li>
-        <a title="DevPlant" target="_blank" href="https://devplant.ro/">
-          <img width="175" height="175" src="assets/logo/hacktalks_logo_devplant.png" alt="DevPlant">
-        </a>
-      </li>
+      
+    </ul>
+    <h1>COMUNITY PARTNERS</h1>
+    <h2> </h2>
+    <ul class="thumbnails-list">
+    <li>
+      <a title="3pillarglobal" target="_blank" href="https://www.3pillarglobal.com/">
+        <img width="175" height="175" src="assets/logo/hacktalks_logo_3pg.png" alt="3pillarglobal">
+      </a>
+    </li>
+    <li>
+      <a title="DevPlant" target="_blank" href="https://devplant.ro/">
+        <img width="175" height="175" src="assets/logo/hacktalks_logo_devplant.png" alt="DevPlant">
+      </a>
+    </li>
+      
 
     </ul>
         <h2>BROUGHT TO YOU BY</h2>
@@ -744,7 +750,7 @@
     var map;
     function initMap() {
 
-        var craft = {lat: 45.7456039, lng: 21.240447};
+        var craft = {lat: 45.745850, lng: 21.240406};
         map = new google.maps.Map(document.getElementById('map'), {
             zoom: 16,
             center: craft,
@@ -754,14 +760,14 @@
             disableDoubleClickZoom: true
         });
 
-        var image = '/hacktalks/assets/logo/hacktalks-pin.png';
+        var image = https://hacktalks.ro/assets/logo/hacktalkspin.png';
         var marker = new google.maps.Marker({
             position: craft,
             map: map,
             title: 'HackTalks 2019',
             url: 'https://goo.gl/maps/5Q1qAbntHLx',
             icon: {
-                url: image,
+                //url: image,
                 scaledSize: {width: 100, height: 75}
             },
         });
