@@ -198,11 +198,29 @@ body {
     padding: 0;
     color: #FFFFFF;
 }
-
 .button-green:hover {
     background-color: #03d86b;
     color: #fff;
 }
+
+.button-red {
+	height: 60px;
+    width: 300px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    border-radius: 2px;
+    background: #F05926;
+    padding: 0;
+    color: #FFFFFF;
+}
+.button-red:hover {
+	background-color: #F05926;
+    color: #fff;
+}
+
 
 #id123-thankyou{
     color: #fff !important;
