@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Meta seo -->
-    <meta name="keywords" content="conference, iot, timisoara, IT, event, tech"/>
+    <meta name="keywords" content="conference, timisoara, IT, event, tech"/>
     <meta name="description"
           content="Yearly tech conference in Timisoara, Romania"/>
     <meta name="subject" content="HackTalks official website">
@@ -22,7 +22,7 @@
     <meta property="og:image" content="https://hacktalks.ro/assets/images/hacktalks-logo.png"/>
     <meta property="og:site_name" content="HackTalks"/>
     <meta property="og:description"
-          content="Tech Conference in Timisoara on the 17th May 2019"/>
+          content="Tech Conference in Timisoara on the 22nd of May 2019"/>
 
 
     <!-- Bootstrap CSS -->
@@ -58,10 +58,10 @@
     var map;
     function initMap() {
 
-        var craft = {lat: 45.745850, lng: 21.240406};
+        var congressHall = {lat: 45.7669644, lng: 21.2287188};
         map = new google.maps.Map(document.getElementById('map'), {
             zoom: 16,
-            center: craft,
+            center: congressHall,
             draggable: false,
             zoomControl: false,
             scrollwheel: false,
@@ -70,10 +70,10 @@
 
         var image = 'https://hacktalks.ro/assets/logo/hacktalkspin.png';
         var marker = new google.maps.Marker({
-            position: craft,
+            position: congressHall,
             map: map,
-            title: 'HackTalks 2019',
-            url: 'https://goo.gl/maps/5Q1qAbntHLx',
+            title: 'HackTalks 2020',
+            url: 'https://www.google.com/maps/place/Iulius+Congress+Hall/@45.7669644,21.2287188,15z/data=!4m5!3m4!1s0x0:0x488a1aa41747c6e8!8m2!3d45.7669644!4d21.2287188',
             icon: {
                 url: image,
                 scaledSize: {width: 100, height: 75}
@@ -102,7 +102,7 @@
             </button>
             <div class="navbar-collapse collapse" id="collapsingNavbar">
 
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto" style="display:none">
                     <li class="nav-item">
                         <a class="nav-link" href="#agenda">Agenda</a>
                     </li>
@@ -126,7 +126,7 @@
         <div class="col heading text-center">Timisoara</div>
     </div>
     <div class="row">
-        <div class="col date">17.05.2019</div>
+        <div class="col date">22.05.2020</div>
     </div>
     <div class="row">
         <div class="col text-center intro">
@@ -138,598 +138,37 @@
     </div>
     <div class="row register">
         <div class="col col-12 text-center mt-5 mb-2">
-            <a class="btn button-red" href="#">SOLD OUT</a>
+            <a class="btn button-green" href="#">COMING SOON</a>
         </div>
     </div>
 
 
 </section>
 
-<section id="agenda" class="content agenda white-bg ">
-        <h1>Agenda</h1>
-        <div class="container hacktalks-schedule">
-          <div class="row hacktalks-schedule-half">
-            <div class="col green">
-              <div class="room">Friday - 17th May.</div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time break-time">
-                    09:00
-                  </div>
-                  <div class="speech">
-                    <div class="break">
-                      Registration &amp; Welcome
-                    </div>
-                  </div>
-                </div>
-    
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time">
-                    09:30 <!--i class="aud"></i>-->
-                  </div>
-                  <div class="speech">
-                    <h3>Platform revolution in mobility</h3>
-                    <div class="details" data-toggle="modal" data-target="#claudiusuma">
-                      <div class="avatar" style="background-image: url('./assets/speakers/2019/claudiu-suma.jpg')"></div>
-                      <div class="info">
-                        <div class="name">Claudiu Suma</div>
-                        <div class="title">CEO of Safefleet</div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Modal -->
-                  <div class="modal fade" id="claudiusuma" tabindex="-1" role="dialog" aria-labelledby="claudiusuma" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Claudiu Suma - Platform revolution in mobility</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="avatar" style="background-image: url('./assets/speakers/2019/claudiu-suma.jpg')"></div>
-                          SafeFleet is the leading regional player in the region, localized in 14 languages. Over 50K vehicles are monitored by 6K users using this cloud based app.  
-                          <br/><br/>
-                          Claudiu frequently commutes now between Timisoara, Dublin, Bucharest, Warsaw and Milan, trying to inspire the local branches of the organizations named above.
-                          <br/><br/>
-                          Sites: www.safefleet.eu, www.tpark.ro, www.2park.io, www.lek3.co
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              
-    
-    
-    
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time">
-                    10:00  <!--i class="aud"></i>-->
-                  </div>
-                  <div class="speech">
-                    <h3>App Security from zero to hackers</h3>
-                    <div class="details" data-toggle="modal" data-target="#monicaiovan">
-                      <div class="avatar" style="background-image: url('./assets/speakers/2019/monica_iovan.png')"></div>
-                      <div class="info">
-    
-                        <div class="name">Monica Iovan</div>
-                        <div class="title">Domain Expert at Visma</div>
-                      </div>
-                  </div>
-                  </div>
-                  <!-- Modal -->
-                  <div class="modal fade" id="monicaiovan" tabindex="-1" role="dialog" aria-labelledby="monicaiovan" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Monica Iovan - App Security from zero to hackers</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="avatar" style="background-image: url('./assets/speakers/2019/monica_iovan.png')"></div>
-                          Monica Iovan is a domain expert @Visma Software and part of the team since 2013. Her goal is always to listen, create, and deliver to the best of her abilities.
-                          <br/><br/>
-                          Her interest in technology was born in the moment she laid eyes on the first computer and as proof she has 13 years in the IT Business under her belt. Developing code and support were her first passions but, since you can’t keep a curious mind in one place for too long,  her career evolved towards Project manager, Service owner and Change management.
-                          <br/><br/>
-                          In Visma Timisoara she began as a Business Analyst and Test Engineer, that until DevOps and Security caught her eye.  In her free time, she enjoys peaceful moments in nature and the company of a good book.
-                          <br/><br/> 
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time break-time">
-                    10:30
-                  </div>
-                  <div class="col speech">
-                    <div class="col break">
-                      15' Break
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time">
-                    10:45 <!--i class="aud"></i>-->
-                  </div>
-                  <div class="speech">
-                    <h3>Building revolutionary oncology ecosystem using container orchestration in the cloud</h3>
-                    <div class="details" data-toggle="modal" data-target="#radumoldovan">
-                      <div class="avatar" style="background-image: url('./assets/speakers/2019/radu_moldovan.jpg')"></div>
-                      <div class="info">
-    
-                        <div class="name">Radu Moldovan</div>
-                        <div class="title">Big Data Architect at Ness</div>
-                      </div>
-                  </div>
-                  </div>
-                  <!-- Modal -->
-                  <div class="modal fade" id="radumoldovan" tabindex="-1" role="dialog" aria-labelledby="radumoldovan" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Radu Moldovan - Building revolutionary oncology ecosystem using container orchestration in the cloud</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="avatar" style="background-image: url('./assets/speakers/2019/radu_moldovan.jpg')"></div>
-                          Over 20 years software engineering experience, last 6 years in big data projects;  
-                          <br/><br/> 
-                          - designed big data applications in healthcare, government, banking;
-                          <br/><br/>
-                          - working with Hadoop distributions like Hortonworks/Cloudera; 
-                          <br/><br/>
-                          - MapReduce2, Spark, Solr Cloud, Cassandra, HBase, Ozzie, ML – recommendation systems;
-                          <br/><br/>
-                          - experienced with big data - data lake, data governance and data privacy
-                          <br/><br/>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time">
-                    11:20 <!--i class="aud"></i>-->
-                  </div>
-                  <div class="speech">
-                    <h3>How did 3 backend developers choose React</h3>
-                    <div class="details"><!-- data-toggle="modal" data-target="#bogdandejan">-->
-                      <div class="avatar" style="background-image: url('./assets/speakers/2019/bogdan_dejan.png')"></div>
-                      <div class="info">
-    
-                        <div class="name">Bogdan Hotea, Dejan Nichsici</div>
-                        <div class="title">Backend Developer, Frontend Developer at Nagarro</div>
-                      </div>
-                  </div>
-                  </div>
-                  <!-- Modal -->
-                  <div class="modal fade" id="bogdan_dejan" tabindex="-1" role="dialog" aria-labelledby="bogdan_dejan" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Bogdan Hotea, Dejan Nichsici - How did 3 backend developers choose React</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="avatar" style="background-image: url('./assets/speakers/2019/bogdan_dejan.png')"></div>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                          culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-    
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time break-time">
-                    12:00 - 13:30
-                  </div>
-                  <div class="col speech">
-                    <div class="col break">
-                      Lunch Time
-                    </div>
-                  </div>
-                </div>
-    
-              </div>
-              <div class="row">
-               
-    
-    
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time">
-                    13:30  <!--i class="aud"></i>-->
-                  </div>
-                  <div class="speech">
-                    <h3>Switching from outsourcing to product development</h3>
-                    <div class="details" data-toggle="modal" data-target="#alinmerches">
-                      <div class="avatar" style="background-image: url('./assets/speakers/2019/alin_merches.jpg')"></div>
-                      <div class="info">
-                        <div class="name">Alin Mercheș</div>
-                        <div class="title">Co-founder at Mobiversal</div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Modal -->
-                  <div class="modal fade" id="alinmerches" tabindex="-1" role="dialog" aria-labelledby="alinmerches" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" >Alin Mercheș - Switching from outsourcing to product development</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="avatar" style="background-image: url('./assets/speakers/2019/alin_merches.jpg')"></div>
-                          Alin Mercheş is an entrepreneur and investor, co-founder of Mobiversal - an agency focusing on design&development of mobile applications, with clients in over 20 countries - and currently the president of Oradea Tech Hub, the IT community organization of Oradea. 
-                          <br/><br/>
-                          Alin has been involved in IT entrepreneurship for nearly 20 years and co-founded several companies in the field, among others having an exit in 2009 with one of his software products. He's keen on improving the lives of people and companies through digitization and automation processes. He's keen on improving the lives of people and companies through digitization and automation processes.
-                          <br/><br/>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-               </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time">
-                    14:00 <!--i class="aud"></i>-->
-                  </div>
-                  <div class="speech">
-                    <h3>The future of web development with Elixir & Elm</h3>
-                    <div class="details" data-toggle="modal" data-target="#cezarhălmăgean">
-                      <div class="avatar" style="background-image: url('./assets/speakers/2019/cezar_halmagean.jpg')"></div>
-                      <div class="info">
-    
-                        <div class="name">Cezar Hălmăgean</div>
-                        <div class="title">Software Consultant</div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Modal -->
-                  <div class="modal fade" id="cezarhălmăgean" tabindex="-1" role="dialog" aria-labelledby="cezarhălmăgean" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" >Cezar Hălmăgean - The future of web development with Elixir & Elmt</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="avatar" style="background-image: url('./assets/speakers/2019/cezar_halmagean.jpg')"></div>
-                          I am a business-minded Ruby on Rails consultant with over a decade of experience in helping SaaS companies grow faster. I've written about the process of building SaaS products in RubyWeekly, ElixirWeekly, SemaphoreCI, and Foundr.
-                          <br/><br/>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time break-time">
-                    14:30
-                  </div>
-                  <div class="col speech">
-                    <div class="col break">
-                      15' Break
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time">
-                    14:45 <!--i class="aud"></i>-->
-                  </div>
-                  <div class="speech">
-                    <h3>.NET Core and Angular everywhere - Web, Mobile, Desktop</h3>
-                    <div class="details" data-toggle="modal" data-target="#andreiignat">
-                      <div class="avatar" style="background-image: url('./assets/speakers/2019/andrei_ignat.png')"></div>
-                      <div class="info">
-    
-                        <div class="name">Andrei Ignat </div>
-                        <div class="title">Technical Lead</div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Modal -->
-                  <div class="modal fade" id="andreiignat" tabindex="-1" role="dialog" aria-labelledby="andreiignat" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" >Andrei Ignat - .NET Core and Angular everywhere - Web, Mobile, Desktop</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="avatar" style="background-image: url('./assets/speakers/2019/andrei_ignat.png')"></div>
-                          Andrei Ignat has >20 year programming experience. He started from VB3 , passed via plain old ASP and a former C# Microsoft Most Valuable Professional (MVP). He is also a consultant, author, speaker,www.adces.ro community leader and http://www.asp.net/ moderator.
-                          <br/><br/>
-                          You can ask him any .NET related question – he will be glad to answer – if he knows the answer. If not, he will learn.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time">
-                    15:15 <!--i class="aud"></i>-->
-                  </div>
-                  <div class="speech">
-                    <h3>Activity & Process Understanding</h3>
-                    <div class="details" data-toggle="modal" data-target="#alexandruarion">
-                      <div class="avatar" style="background-image: url('./assets/speakers/2019/alexandru_arion.jpg')"></div>
-                      <div class="info">
-    
-                        <div class="name">Alexandru Arion</div>
-                        <div class="title">Research Director at Everseen</div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Modal -->
-                  <div class="modal fade" id="alexandruarion" tabindex="-1" role="dialog" aria-labelledby="alexandruarion" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Alexandru Arion - Activity & Process Understanding</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="avatar" style="background-image: url('./assets/speakers/2019/alexandru_arion.jpg')"></div>
-                          Passionate about the evolution of IT for 20 years. 10+ years experience in software engineering, 5+ years experience in Research and Education..<br/><br/>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-           
-              
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time break-time">
-                    15:45 
-                  </div>
-                  <div class="col speech">
-                    <div class="col break">
-                      15' Break
-                    </div>
-                  </div>
-                </div>
-    
-              </div>
-              <div class="row">
-          
-
-              
-                
-                
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time">
-                    16:00 <!--i class="aud"></i>-->
-                  </div>
-                  <div class="speech">
-                    <h3>Isolated Components Driven Development</h3>
-                    <div class="details" data-toggle="modal" data-target="#andreipfeiffer">
-                      <div class="avatar" style="background-image: url('./assets/speakers/2019/andrei_pfeiffer.png')"></div>
-                      <div class="info">
-    
-                        <div class="name">Andrei Pfeiffer</div>
-                        <div class="title">Code Designer</div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Modal -->
-                  <div class="modal fade" id="andreipfeiffer" tabindex="-1" role="dialog" aria-labelledby="andreipfeiffer" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Andrei Pfeiffer - Isolated Components Driven Development</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="avatar" style="background-image: url('./assets/speakers/2019/andrei_pfeiffer.png')"></div>
-                          Andrei Pfeiffer is a "designer / developer hybrid", specialized in UI development, both on web and mobile. He organizes tim.js, the local JavaScript meetup in Timisoara/RO & revo.js conference.<br/><br/>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-              
-                
-
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time">
-                    16:30 <!--i class="aud"></i>-->
-                  </div>
-                  <div class="speech">
-                    <h3>Modeling Complex Workflows Using Finite State Machines in Javascript</h3>
-                    <div class="details" data-toggle="modal" data-target="#bogdanbugarschi">
-                      <div class="avatar" style="background-image: url('./assets/speakers/2019/bogdan_bugarschi.jpg')"></div>
-                      <div class="info">
-    
-                        <div class="name">Bogdan Bugarschi</div>
-                        <div class="title">Software Developer</div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Modal -->
-                  <div class="modal fade" id="bogdanbugarschi" tabindex="-1" role="dialog" aria-labelledby="bogdanbugarschi" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Bogdan Bugarschi - Modeling Complex Workflows Using Finite State Machines in Javascript</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="avatar" style="background-image: url('./assets/speakers/2019/bogdan_bugarschi.jpg')"></div>
-                          Senior Software Developer at VisualRetailing. Passionate about code in all it's shapes and sizes, but mostly when it has parens around it. Not particularly good at writing bios...<br/><br/>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="row">
-                <div class="col talk">
-                  <div class="time break-time">
-                    17:00
-                  </div>
-                  <div class="speech no-bg">
-                    <div class="break">
-                      End of Hack Talks
-                    </div>
-                  </div>
-                </div>
-    
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
 <section id="sponsors" class="content sponsors text-center white-bg">
-    <h1>SPONSORS</h1>
-    <h2> </h2>
+    <h2>BROUGHT TO YOU BY</h2>
     <ul class="thumbnails-list">
-      <li>
-        <a title="Everseen" target="_blank" href="https://www.everseen.com/">
-          <img width="175" height="175" src="assets/logo/hacktalks_logo_everseen.png" alt="Everseen">
-        </a>
-      </li>
-      <li>
-        <a title="Here" target="_blank" href="https://www.here.com/">
-          <img width="175" height="175" src="assets/logo/hacktalks_logo_here.png" alt="Here">
-        </a>
-      </li>
-      <li>
-        <a title="Ness" target="_blank" href="http://ness.ro/">
-          <img width="175" height="175" src="assets/logo/hacktalks_logo_ness.png" alt="Ness">
-        </a>
-      </li>
-      <li>
-        <a title="Safefleet" target="_blank" href="https://www.safefleet.eu/">
-          <img width="175" height="175" src="assets/logo/hacktalks_logo_safefleet.png" alt="Safefleet">
-        </a>
-      </li>
-      <li>
-        <a title="Visma" target="_blank" href="https://www.visma.ro/">
-          <img width="175" height="175" src="assets/logo/hacktalks_logo_visma.png" alt="Visma">
-        </a>
-      </li>
+        <li>
+            <a title="BanatIT" target="_blank" href="http://banatit.ro/">
+                <img width="227" height="220" src="assets/logo/hacktalks_logo_banat_it.png" alt="Banat IT">
+            </a>
+        </li>
     </ul>
-    <ul class="thumbnails-list">
-      <li>
-        <a title="Nagarro" target="_blank" href="https://www.nagarro.com/">
-          <img width="175" height="175" src="assets/logo/hacktalks_logo_nagarro.png" alt="Nagarro">
-        </a>
-      </li>
-      <li>
-        <a title="Sustainalytics" target="_blank" href="https://www.sustainalytics.com/">
-          <img width="175" height="175" src="assets/logo/hacktalks_logo_sustainalytics.png" alt="Sustainalytics">
-        </a>
-      </li>
-      
-    </ul>
-    <h1>COMUNITY PARTNERS</h1>
-    <h2> </h2>
-    <ul class="thumbnails-list">
-    <li>
-      <a title="3pillarglobal" target="_blank" href="https://www.3pillarglobal.com/">
-        <img width="175" height="175" src="assets/logo/hacktalks_logo_3pg.png" alt="3pillarglobal">
-      </a>
-    </li>
-    <li>
-      <a title="DevPlant" target="_blank" href="https://devplant.ro/">
-        <img width="175" height="175" src="assets/logo/hacktalks_logo_devplant.png" alt="DevPlant">
-      </a>
-    </li>
-    <li>
-      <a title="Lingo24" target="_blank" href="https://www.lingo24.com/">
-        <img width="175" height="175" src="assets/logo/hacktalks_logo_lingo24.png" alt="Lingo24">
-      </a>
-    </li>
-    <li>
-      <a title="Azets" target="_blank" href="https://www.azets.ro/">
-        <img width="175" height="175" src="assets/logo/hacktalks_logo_azets.png" alt="Azets">
-      </a>
-    </li>
-    <li>
-      <a title="Opswat" target="_blank" href="https://www.opswat.com/">
-        <img width="175" height="175" src="assets/logo/hacktalks_logo_opswat.png" alt="Azets">
-      </a>
-    </li>
 
-    </ul>
-        <h2>BROUGHT TO YOU BY</h2>
-        <ul class="thumbnails-list">
-            <li>
-                <a title="BanatIT" target="_blank" href="http://banatit.ro/">
-                    <img width="227" height="220" src="assets/logo/hacktalks_logo_banat_it.png" alt="Banat IT">
-                </a>
-            </li>
-        </ul>
+    <div class="content">
 
-        <div class="content">
-
-            <div class="title text-center">
-                <h3>Interested in becoming a sponsor?</h3>
-                <p>
-                    Get in touch with us over the phone or email: <br>
-                    <a href="tel:+40747375957">(+40) 747 375 957<br></a>
-                    <a href="mailto:info@banatit.ro">info@banatit.ro</a>
-                </p>
-            </div>
-
-    </section>
+        <div class="title text-center">
+            <h3>Interested in becoming a sponsor?</h3>
+            <p>
+                Get in touch with us over the phone or email: <br>
+                <a href="tel:+40765079755">(+40) 765 079 755<br></a>
+                <a href="mailto:info@banatit.ro">info@banatit.ro</a>
+            </p>
+        </div>
+    </div>
+</section>
 
     <section id="footer" class="container footer">
         <div class="row">
@@ -745,6 +184,9 @@
                         </li>
                         <li>
                             <a href="/2018/" target="_blank">2018</a>
+                        </li>
+                        <li>
+                            <a href="/2019/" target="_blank">2019</a>
                         </li>
                     </ul>
                 </div>
@@ -789,7 +231,7 @@
         <div class="container">
             <div class="row">
                 <div class="col text-right">
-                    &copy; Hacktalks 2019. All rights reserved.
+                    &copy; Hacktalks 2020. All rights reserved.
                 </div>
             </div>
         </div>
